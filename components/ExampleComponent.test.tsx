@@ -1,0 +1,1 @@
+import React from 'react';\nimport { render, screen } from '@testing-library/react';\nimport ExampleComponent from './ExampleComponent';\ntest('renders hello world', () => { render(<ExampleComponent />); const textElement = screen.getByText(/hello, world/i); expect(textElement).toBeInTheDocument(); });
