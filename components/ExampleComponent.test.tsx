@@ -1,1 +1,8 @@
-import React from 'react';\nimport { render, screen } from '@testing-library/react';\nimport ExampleComponent from './ExampleComponent';\ntest('renders hello world', () => { render(<ExampleComponent />); const textElement = screen.getByText(/hello, world/i); expect(textElement).toBeInTheDocument(); });
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import ExampleComponent from "./ExampleComponent";
+test("renders hello world", () => {
+  render(<ExampleComponent />);
+  const textElement = screen.getByText(/hello, world/i);
+  expect(textElement).toBeInTheDocument();
+});

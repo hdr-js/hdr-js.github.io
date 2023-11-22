@@ -1,1 +1,5 @@
-import React from 'react';\nconst ExampleComponent: React.FC = () => { return <div>Hello, World!</div>; };\nexport default ExampleComponent;
+import React from "react";
+const ExampleComponent: React.FC = () => {
+  return <div>Hello, World!</div>;
+};
+export default ExampleComponent;
