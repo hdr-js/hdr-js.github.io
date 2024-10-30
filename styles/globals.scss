@@ -1,0 +1,30 @@
+// styles/_theme.scss
+
+@import "./_variables";
+@import "./_fonts";
+@import "./_mixins";
+
+body {
+  font-family: $font-family-primary;
+  color: $color-text;
+  background-color: $color-background;
+  font-size: $font-size-md;
+  font-weight: $font-weight-regular;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-bold;
+  color: $color-primary;
+}
+
+p {
+  margin: $spacing-md 0;
+}
