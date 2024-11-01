@@ -15,10 +15,11 @@ import GitHubIcon from "../../assets/icons/github-icon.svg";
  */
 const Header: React.FC = () => (
   <header className={styles.header}>
-    §
     <div className={styles.status}>
-      <span className={styles.indicator} /> Available for work!
+      <div className={styles.indicator}></div>
+      Available for work!
     </div>
+    <div className={styles.home}>H</div>
     <nav className={styles.nav}>
       <Link href="/resume.pdf" target="_blank" aria-label="Resume">
         <ResumeIcon className={styles.icon} />
