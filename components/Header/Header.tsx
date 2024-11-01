@@ -19,13 +19,12 @@ const Header: React.FC = () => (
       <div className={styles.indicator}></div>
       Available for work!
     </div>
-    <div className={styles.home}>H</div>
     <nav className={styles.nav}>
       <Link href="/resume.pdf" target="_blank" aria-label="Resume">
         <ResumeIcon className={styles.icon} />
       </Link>
       <Link
-        href="https://www.linkedin.com/in/yourprofile"
+        href="https://www.linkedin.com/in/hdr-js"
         target="_blank"
         aria-label="LinkedIn"
       >
