@@ -24,6 +24,9 @@ h6 {
   font-weight: $font-weight-bold;
   color: $color-primary;
 }
+a {
+  text-decoration: none;
+}
 
 p {
   margin: $spacing-md 0;
