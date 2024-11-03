@@ -2,6 +2,8 @@
 
 import "../styles/globals.scss"; // Import global styles
 
+import { ThemeProvider } from "../contexts/ThemeContext";
+
 import { AppProps } from "next/app";
 
 /**
@@ -16,7 +18,11 @@ import { AppProps } from "next/app";
  * @returns {JSX.Element} The rendered component
  */
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
-  return <Component {...pageProps} />;
+  return (
+    <ThemeProvider>
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
 
 export default MyApp;

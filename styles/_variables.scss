@@ -1,13 +1,26 @@
 @import "./fonts";
 
 // Colors
-$color-primary: #0070f3;
-$color-secondary: #ff4081;
-$color-success: #28a745;
-$color-danger: #dc3545;
-$color-warning: #ffc107;
-$color-background: #f5f5f5;
-$color-text: #333;
+
+$color-primary-blue: #3647e7;
+$color-primary-orange: #f05923;
+$color-primary-yellow: #faa613;
+$color-primary-green: #04bf0c;
+$color-primary-red: #a10702;
+
+$color-success: #04bf0c;
+$color-danger: #a10702;
+$color-warning: #faa613;
+
+$light-theme: (
+  color-background: #f5f5f5,
+  color-text: #141414,
+);
+
+$dark-theme: (
+  color-background: #141414,
+  color-text: #f5f5f5,
+);
 
 // Font Sizes (converted to rem)
 $font-size-xs: 0.75rem; // 12px
@@ -37,8 +50,8 @@ $spacing-xl: 2rem; // 32px
 $spacing-xxl: 3rem; // 48px
 
 // Borders (using rem)
-$border-primary: 0.0625rem solid $color-primary; // 1px
-$border-secondary: 0.0625rem solid $color-secondary; // 1px
+// $border-primary: 0.0625rem solid $color-primary; // 1px
+// $border-secondary: 0.0625rem solid $color-secondary; // 1px
 
 // Breakpoints (in rem)
 $breakpoint-xs: 0rem; // < 576px

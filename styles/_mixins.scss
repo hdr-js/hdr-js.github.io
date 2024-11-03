@@ -1,5 +1,7 @@
 // styles/_mixins.scss
 
+@import "./variables";
+
 // Flex Center
 @mixin flex-center {
   display: flex;
@@ -36,4 +38,13 @@
   @media only screen and (min-width: $lower-breakpoint) and (max-width: ($upper-breakpoint - 1)) {
     @content;
   }
+}
+
+// Function to get theme variable by key
+@function theme-var($key) {
+  @if map-has-key($light-theme, $key) {
+    @return var(--#{$key});
+  }
+  @warn "Undefined variable #{$key}";
+  @return null;
 }
