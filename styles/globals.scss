@@ -4,15 +4,35 @@
 @import "./_fonts";
 @import "./_mixins";
 
+// Default light theme
+:root {
+  @each $key, $value in $dark-theme {
+    --#{$key}: #{$value};
+  }
+}
+
+// Dark theme
+[data-theme="light"] {
+  @each $key, $value in $light-theme {
+    --#{$key}: #{$value};
+  }
+}
+
+// Using theme variables throughout your app
 body {
+  background-color: theme-var(color-background);
+  color: theme-var(color-text);
   font-family: $font-family-primary;
-  color: $color-text;
-  background-color: $color-background;
   font-size: $font-size-md;
   font-weight: $font-weight-regular;
   line-height: 1.6;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  color: theme-var(primary-color);
+  border-bottom: 1px solid theme-var(secondary-color);
 }
 
 h1,
@@ -22,12 +42,19 @@ h4,
 h5,
 h6 {
   font-weight: $font-weight-bold;
-  color: $color-primary;
 }
 a {
   text-decoration: none;
+  background-color: theme-var(color-background);
+  color: theme-var(color-text);
 }
 
 p {
   margin: $spacing-md 0;
+  background-color: theme-var(color-background);
+  color: theme-var(color-text);
+}
+
+path {
+  stroke: theme-var(color-text);
 }
