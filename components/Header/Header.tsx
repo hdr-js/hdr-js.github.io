@@ -37,7 +37,7 @@ const Header: React.FC = () => {
           <LinkedInIcon className={styles.icon} />
         </Link>
         <Link
-          href="https://github.com/yourprofile"
+          href="https://github.com/hdr-js"
           target="_blank"
           aria-label="GitHub"
         >
