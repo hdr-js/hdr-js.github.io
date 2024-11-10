@@ -18,6 +18,13 @@ import { useTheme } from "../../contexts/ThemeContext";
 const Header: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
 
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Resume_Haider_Ali_Anjum.pdf";
+    link.download = "Resume_Haider_Ali_Anjum.pdf";
+    link.click();
+  };
+
   return (
     <header className={styles.header}>
       <div className={styles.status}>
@@ -26,9 +33,9 @@ const Header: React.FC = () => {
       </div>
       <nav className={styles.nav}>
         <ThemeToggle value={theme} onChange={toggleTheme} />
-        <Link href="/resume.pdf" target="_blank" aria-label="Resume">
+        <button onClick={handleDownload} className={styles.downloadButton}>
           <ResumeIcon className={styles.icon} />
-        </Link>
+        </button>
         <Link
           href="https://www.linkedin.com/in/hdr-js"
           target="_blank"
