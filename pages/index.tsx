@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 const IndexPage = () => (
   <Layout title="hdr - Portfolio">
-    <h1>Hello Next.js 👋</h1>
+    <h1>Hello Haider.js 👋</h1>
     <p>Yayy</p>
   </Layout>
 );
