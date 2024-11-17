@@ -29,7 +29,7 @@ const Header: React.FC = () => {
     <header className={styles.header}>
       <div className={styles.status}>
         <div className={styles.indicator}></div>
-        Available for work!
+        Available to work!
       </div>
       <nav className={styles.nav}>
         <ThemeToggle value={theme} onChange={toggleTheme} />
