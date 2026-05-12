@@ -18,7 +18,7 @@ const ThemeToggle: React.FC<ThemeToggleProps> = ({ value, onChange }) => {
 
   // Toggle the theme when the user clicks the switch
   const handleToggle = () => {
-    const newTheme = value === "light" ? "dark" : "dark";
+    const newTheme = value === "light" ? "dark" : "light";
     setIsTransitioning(true);
     setTimeout(() => {
       onChange(newTheme);
