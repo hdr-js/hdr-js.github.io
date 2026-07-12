@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import { useTheme } from "../../contexts/ThemeContext";
 import styles from "./Hero.module.scss";
 
 /**
@@ -9,7 +8,6 @@ import styles from "./Hero.module.scss";
  */
 const Hero: React.FC = () => {
   const container = useRef<HTMLDivElement>(null);
-  const { theme } = useTheme();
 
   useEffect(() => {
     let anim: { destroy: () => void } | undefined;
@@ -33,8 +31,7 @@ const Hero: React.FC = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.center}>
-        {/* Lottie art is pure black; invert it in dark mode. */}
-        <div className={styles.logo} data-dark={theme === "dark"} ref={container} />
+        <div className={styles.logo} ref={container} />
         <div className={styles.hint} data-reveal>
           <span className={styles.hintText}>Scroll to explore</span>
           <span className={styles.arrow} aria-hidden="true">

@@ -24,8 +24,8 @@
   align-items: center;
   justify-content: center;
 
-  &[data-dark="true"] {
-    filter: invert(1);
+  path {
+    stroke: theme-var(color-text);
   }
 }
 
