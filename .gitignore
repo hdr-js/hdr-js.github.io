@@ -19,6 +19,8 @@
 # misc
 .DS_Store
 *.pem
+/handoff/
+/apply-handoff.sh
 
 # debug
 npm-debug.log*
