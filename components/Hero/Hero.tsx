@@ -43,10 +43,10 @@ const Hero: React.FC = () => {
       </div>
       <div className={styles.titles} data-reveal>
         <span>Engineer</span>
-        <span className={styles.slash}>/</span>
-        <span>Enthusiast</span>
-        <span className={styles.slash}>/</span>
-        <span>Designer</span>
+        <span className={styles.optionalTitle}>
+          <span className={styles.slash}>/</span>
+          <span>Designer</span>
+        </span>
       </div>
     </div>
   );
