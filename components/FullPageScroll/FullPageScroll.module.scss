@@ -96,3 +96,35 @@ $panel-h: calc(100vh - 5rem);
     padding: 2rem $spacing-lg;
   }
 }
+
+@include respond-below($breakpoint-sm) {
+  .dots {
+    right: $spacing-md;
+    top: auto;
+    bottom: $spacing-lg;
+    transform: none;
+    gap: 0.65rem;
+  }
+
+  .dot {
+    gap: 0;
+  }
+
+  .dotLabel {
+    display: none;
+  }
+
+  .pip {
+    width: 6px;
+    height: 6px;
+    border-width: 1px;
+
+    .dot[data-active="true"] & {
+      height: 16px;
+    }
+  }
+
+  .panel {
+    padding: 1.5rem $spacing-md 2.5rem;
+  }
+}

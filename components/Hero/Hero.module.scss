@@ -17,9 +17,9 @@
 }
 
 .logo {
-  width: min(66vw, 780px);
+  width: min(72vw, 860px);
   aspect-ratio: 1440 / 1024;
-  max-height: 52vh;
+  max-height: 58vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,8 +38,8 @@
 }
 
 .hintText {
-  font-size: 0.66rem;
-  letter-spacing: 0.28em;
+  font-size: 0.6rem;
+  letter-spacing: 0.24em;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -47,6 +47,11 @@
 .arrow {
   display: flex;
   animation: heroBob 2s ease-in-out infinite;
+
+  svg {
+    width: 0.95rem;
+    height: 0.95rem;
+  }
 }
 
 @keyframes heroBob {
@@ -73,4 +78,45 @@
 
 .slash {
   opacity: 0.35;
+}
+
+.optionalTitle {
+  display: contents;
+}
+
+@include respond-below($breakpoint-sm) {
+  .center {
+    gap: 1.65rem;
+  }
+
+  .logo {
+    width: 80vw;
+    max-height: 46vh;
+  }
+
+  .hint {
+    gap: 0.4rem;
+  }
+
+  .hintText {
+    font-size: 0.54rem;
+    letter-spacing: 0.18em;
+  }
+
+  .arrow svg {
+    width: 0.82rem;
+    height: 0.82rem;
+  }
+
+  .titles {
+    gap: 1rem;
+    font-size: 0.64rem;
+    letter-spacing: 0.24em;
+  }
+}
+
+@media only screen and (max-width: 23.5rem) {
+  .optionalTitle {
+    display: none;
+  }
 }
