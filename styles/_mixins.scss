@@ -1,6 +1,7 @@
 // styles/_mixins.scss
 
-@import "./variables";
+@use "sass:map";
+@use "variables";
 
 // Flex Center
 @mixin flex-center {
@@ -11,8 +12,8 @@
 
 // Responsive Media Queries
 @function get-breapoint($break) {
-  @if (map-has-key($breakpoints, $break) == true) {
-    @return map-get($breakpoints, $break);
+  @if (map.has-key($breakpoints, $break) == true) {
+    @return map.get($breakpoints, $break);
   } @else {
     @return $break;
   }
@@ -42,7 +43,7 @@
 
 // Function to get theme variable by key
 @function theme-var($key) {
-  @if map-has-key($light-theme, $key) {
+  @if map.has-key(variables.$light-theme, $key) {
     @return var(--#{$key});
   }
   @warn "Undefined variable #{$key}";

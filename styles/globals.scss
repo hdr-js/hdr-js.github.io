@@ -1,38 +1,38 @@
 // styles/_theme.scss
 
-@import "./_variables";
-@import "./_fonts";
-@import "./_mixins";
+@use "_variables";
+@use "_fonts";
+@use "_mixins";
 
 // Default light theme
 :root {
-  @each $key, $value in $dark-theme {
+  @each $key, $value in variables.$dark-theme {
     --#{$key}: #{$value};
   }
 }
 
 // Dark theme
 [data-theme="light"] {
-  @each $key, $value in $light-theme {
+  @each $key, $value in variables.$light-theme {
     --#{$key}: #{$value};
   }
 }
 
 // Using theme variables throughout your app
 body {
-  background-color: theme-var(color-background);
-  color: theme-var(color-text);
-  font-family: $font-family-primary;
-  font-size: $font-size-md;
-  font-weight: $font-weight-regular;
+  background-color: mixins.theme-var(color-background);
+  color: mixins.theme-var(color-text);
+  font-family: variables.$font-family-primary;
+  font-size: variables.$font-size-md;
+  font-weight: variables.$font-weight-regular;
   line-height: 1.6;
   margin: 0;
   padding: 0;
 }
 
 .header {
-  color: theme-var(primary-color);
-  border-bottom: 1px solid theme-var(secondary-color);
+  color: mixins.theme-var(primary-color);
+  border-bottom: 1px solid mixins.theme-var(secondary-color);
 }
 
 h1,
@@ -41,20 +41,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: $font-weight-bold;
+  font-weight: variables.$font-weight-bold;
 }
 a {
   text-decoration: none;
-  background-color: theme-var(color-background);
-  color: theme-var(color-text);
+  background-color: mixins.theme-var(color-background);
+  color: mixins.theme-var(color-text);
 }
 
 p {
-  margin: $spacing-md 0;
-  background-color: theme-var(color-background);
-  color: theme-var(color-text);
+  margin: variables.$spacing-md 0;
+  background-color: mixins.theme-var(color-background);
+  color: mixins.theme-var(color-text);
 }
 
 path {
-  stroke: theme-var(color-text);
+  stroke: mixins.theme-var(color-text);
 }
