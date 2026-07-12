@@ -12,8 +12,8 @@
 
 // Responsive Media Queries
 @function get-breapoint($break) {
-  @if (map.has-key($breakpoints, $break) == true) {
-    @return map.get($breakpoints, $break);
+  @if (map.has-key(variables.$breakpoints, $break) == true) {
+    @return map.get(variables.$breakpoints, $break);
   } @else {
     @return $break;
   }

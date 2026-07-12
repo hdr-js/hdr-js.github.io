@@ -1,0 +1,60 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1.8rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: theme-var(color-muted);
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: $color-primary-yellow;
+  }
+}
+
+// 4 columns on desktop, 2 on tablet, 1 on mobile — via intrinsic sizing.
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.card {
+  border: 1px solid theme-var(color-line);
+  border-radius: 10px;
+  padding: 1.25rem 1.35rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitle {
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 0.9rem;
+  font-weight: $font-weight-bold;
+}
+
+.items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}

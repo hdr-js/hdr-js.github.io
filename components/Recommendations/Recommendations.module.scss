@@ -1,0 +1,121 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: theme-var(color-muted);
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: $color-primary-green;
+  }
+}
+
+.quoteMark {
+  font-family: Georgia, serif;
+  font-size: 4rem;
+  line-height: 0.6;
+  color: theme-var(color-muted);
+  opacity: 0.4;
+  height: 2rem;
+}
+
+.view {
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding-right: 1px;
+}
+
+.quote {
+  margin: 0;
+  font-weight: $font-weight-medium;
+  font-size: clamp(1.3rem, 2.4vw, 1.95rem);
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+  max-width: 62ch;
+}
+
+.author {
+  margin-top: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: theme-var(color-line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: $font-weight-bold;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.name {
+  font-weight: $font-weight-bold;
+}
+.role {
+  color: theme-var(color-muted);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 2.6rem;
+}
+
+.navBtn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid theme-var(color-line);
+  background: none;
+  color: theme-var(color-text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.count {
+  font-size: 0.85rem;
+  color: theme-var(color-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.source {
+  margin-left: auto;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: theme-var(color-muted);
+}
