@@ -53,9 +53,3 @@ p {
 path {
   stroke: mixins.theme-var(color-text);
 }
-
-/* Full-page portfolio snap scroller */
-html,
-body {
-  overflow: hidden;
-}

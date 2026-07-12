@@ -1,0 +1,114 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: $spacing-xl;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: theme-var(color-muted);
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: $color-primary-red;
+  }
+}
+
+.tagline {
+  font-size: 1rem;
+  color: theme-var(color-muted);
+  margin-bottom: 1rem;
+}
+
+.mail {
+  display: inline-block;
+  font-weight: $font-weight-extra-bold;
+  font-size: clamp(2rem, 6.5vw, 5rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  transition: color 0.25s ease;
+
+  &:hover {
+    color: $color-primary-blue;
+  }
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 2.4rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 1px solid theme-var(color-line);
+  border-radius: 99px;
+  padding: 0.7rem 1.3rem;
+  font-size: 0.9rem;
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-color: theme-var(color-text);
+  }
+}
+
+.speaks {
+  margin-top: 2.4rem;
+}
+
+.label {
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: theme-var(color-muted);
+  margin-bottom: 0.6rem;
+}
+
+.langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  font-size: 0.95rem;
+}
+
+.level {
+  color: theme-var(color-muted);
+  font-size: 0.82rem;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid theme-var(color-line);
+  font-size: 0.78rem;
+  color: theme-var(color-muted);
+}
