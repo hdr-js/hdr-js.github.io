@@ -2,6 +2,7 @@
 @import "../../styles/mixins";
 
 $panel-h: calc(100vh - 5rem);
+$short-panel-height: 760px;
 
 .viewport {
   height: $panel-h;
@@ -126,5 +127,12 @@ $panel-h: calc(100vh - 5rem);
 
   .panel {
     padding: 1.5rem $spacing-md 2.5rem;
+  }
+}
+
+@media (max-height: $short-panel-height) {
+  .panel {
+    justify-content: flex-start;
+    overflow-y: auto;
   }
 }

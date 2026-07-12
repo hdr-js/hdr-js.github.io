@@ -1,6 +1,8 @@
 @import "../../styles/variables";
 @import "../../styles/mixins";
 
+$short-panel-height: 760px;
+
 .wrap {
   max-width: 1200px;
   margin: 0 auto;
@@ -94,4 +96,32 @@
 .detail {
   font-size: 0.85rem;
   color: theme-var(color-muted);
+}
+
+@media (max-height: $short-panel-height) {
+  .eyebrow {
+    margin-bottom: 1rem;
+  }
+
+  .grid {
+    gap: 2rem;
+  }
+
+  .heading {
+    margin-bottom: 1rem;
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+  }
+
+  .lead {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .body {
+    font-size: 0.94rem;
+  }
+
+  .side {
+    gap: 1.2rem;
+  }
 }
