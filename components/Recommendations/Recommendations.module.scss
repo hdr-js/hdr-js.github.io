@@ -56,6 +56,19 @@
   line-height: 1.45;
   letter-spacing: -0.01em;
   max-width: 62ch;
+  max-height: min(34vh, 15rem);
+  overflow-y: auto;
+  padding-right: 0.6rem;
+}
+
+.relationship {
+  margin: 1.2rem 0 0;
+  color: theme-var(color-muted);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  max-width: 70ch;
 }
 
 .author {
@@ -76,13 +89,40 @@
   font-weight: $font-weight-bold;
   font-size: 0.9rem;
   text-transform: uppercase;
+  overflow: hidden;
+  position: relative;
+  flex: 0 0 auto;
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  span {
+    position: relative;
+    z-index: 0;
+  }
+}
+
+.authorText {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
 }
 
 .name {
   font-weight: $font-weight-bold;
+  width: fit-content;
 }
 .role {
   color: theme-var(color-muted);
+  font-size: 0.88rem;
+  line-height: 1.4;
 }
 
 .controls {
@@ -118,4 +158,23 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: theme-var(color-muted);
+}
+
+@include respond-below($breakpoint-md) {
+  .quote {
+    max-height: min(38vh, 16rem);
+  }
+
+  .relationship {
+    font-size: 0.72rem;
+  }
+
+  .controls {
+    gap: 0.8rem;
+    margin-top: 1.8rem;
+  }
+
+  .source {
+    display: none;
+  }
 }
