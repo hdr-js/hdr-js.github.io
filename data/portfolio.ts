@@ -177,9 +177,9 @@ export const about = {
   location: "Berlin, Germany",
   heading: "Software engineer with an eye for design.",
   lead:
-    "I'm a software engineer with a decade of experience helping teams deliver reliable, high-performing products.",
+    "I'm Haider, a software engineer with a decade of experience delivering high-performing web applications across complex product domains.",
   body:
-    "I support teams with practical consultation, performance improvements, and structured delivery across mobility, education, coaching, warehousing, sales, auditing and healthcare.",
+    "I help teams with structured delivery, practical consultation, and performance-focused engineering. My eye for UI and aesthetics comes from sketching, digital illustration, and product design work.",
   education: { degree: "B.Sc. Computer Science", detail: "PUCIT, Lahore · 2013–2017" },
   honors: { title: "Speaker — Microsoft Insider Dev Tour", detail: "2019" },
 };

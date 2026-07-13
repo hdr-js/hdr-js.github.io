@@ -16,18 +16,13 @@ const About: React.FC = () => (
       </div>
       <aside className={styles.side} data-reveal>
         <div>
-          <div className={styles.name}>{about.name}</div>
+          <div className={styles.label}>Location</div>
           <div className={styles.location}>{about.location}</div>
         </div>
         <div>
           <div className={styles.label}>Education</div>
           <div className={styles.value}>{about.education.degree}</div>
           <div className={styles.detail}>{about.education.detail}</div>
-        </div>
-        <div>
-          <div className={styles.label}>Honors</div>
-          <div className={styles.value}>{about.honors.title}</div>
-          <div className={styles.detail}>{about.honors.detail}</div>
         </div>
       </aside>
     </div>

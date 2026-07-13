@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
+import LinkedInIcon from "../../assets/icons/linkedin-icon.svg";
 import { recommendationsFallback, Recommendation } from "../../data/portfolio";
 import linkedinRecommendations from "../../data/linkedin-recommendations.json";
 import styles from "./Recommendations.module.scss";
@@ -35,6 +36,13 @@ const realRecommendations: Recommendation[] = (linkedinRecommendations as Linked
   }))
   .filter((item) => item.quote && item.name);
 
+const splitRelationship = (relationship?: string | null) => {
+  if (!relationship) return { date: null, context: null };
+  const match = relationship.match(/^([A-Za-z]+ \d{1,2}, \d{4}),\s*(.+)$/);
+  if (!match) return { date: null, context: relationship };
+  return { date: match[1], context: match[2] };
+};
+
 /**
  * Recommendations carousel sourced from exported LinkedIn recommendation data.
  * Left/Right arrow keys cycle while this section is active.
@@ -51,6 +59,7 @@ const Recommendations: React.FC<Props> = ({ active }) => {
   activeRef.current = active;
   const currentItem = items[i];
   const modalItem = modalIndex === null ? null : items[modalIndex];
+  const modalRelationship = splitRelationship(modalItem?.relationship);
 
   const go = (n: number) => setI((prev) => (n + items.length) % items.length);
 
@@ -236,20 +245,27 @@ const Recommendations: React.FC<Props> = ({ active }) => {
                     <span>{modalItem.name?.[0] === "[" ? "?" : modalItem.name?.[0]}</span>
                   </span>
                   <div className={styles.modalIntro}>
-                    <p className={styles.modalKicker}>LinkedIn recommendation</p>
                     <h3 id="recommendation-dialog-title" className={styles.modalTitle}>
                       {modalItem.name}
                     </h3>
-                    <p className={styles.modalRole}>{modalItem.company ? `${modalItem.title}, ${modalItem.company}` : modalItem.title}</p>
-                    {modalItem.relationship ? <p className={styles.modalRelationship}>{modalItem.relationship}</p> : null}
+                    <div className={styles.modalRoleLine}>
+                      <p className={styles.modalRole}>{modalItem.company ? `${modalItem.title}, ${modalItem.company}` : modalItem.title}</p>
+                      {modalItem.profileUrl ? (
+                        <a className={styles.mobileProfileLink} href={modalItem.profileUrl} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                          <LinkedInIcon aria-hidden="true" />
+                        </a>
+                      ) : null}
+                    </div>
                   </div>
                   {modalItem.profileUrl ? (
                     <a className={styles.profileLink} href={modalItem.profileUrl} target="_blank" rel="noopener noreferrer">
-                      LinkedIn profile
+                      LinkedIn profile <span aria-hidden="true">-&gt;</span>
                     </a>
                   ) : null}
                 </div>
+                {modalRelationship.context ? <p className={styles.modalRelationship}>{modalRelationship.context}</p> : null}
                 <p className={styles.modalQuote}>{modalItem.quote}</p>
+                {modalRelationship.date ? <p className={styles.modalDate}>{modalRelationship.date}</p> : null}
               </article>
             </div>,
             document.body

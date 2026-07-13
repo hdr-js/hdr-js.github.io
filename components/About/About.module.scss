@@ -39,24 +39,26 @@ $short-panel-height: 760px;
 }
 
 .heading {
-  margin: 0 0 1.6rem;
+  margin: 0 0 1.25rem;
   font-weight: $font-weight-extra-bold;
-  font-size: clamp(1.8rem, 3.6vw, 3rem);
+  font-size: clamp(1.45rem, 2.9vw, 2.35rem);
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
 
 .lead {
-  margin: 0 0 1.1rem;
-  font-size: 1.05rem;
-  max-width: 60ch;
+  margin: 0 0 0.9rem;
+  font-size: 0.96rem;
+  line-height: 1.65;
+  max-width: 56ch;
 }
 
 .body {
   margin: 0;
-  font-size: 0.98rem;
+  font-size: 0.9rem;
+  line-height: 1.65;
   color: theme-var(color-muted);
-  max-width: 60ch;
+  max-width: 56ch;
 }
 
 .side {
@@ -72,22 +74,16 @@ $short-panel-height: 760px;
   }
 }
 
-.name {
-  font-size: 1.35rem;
-  font-weight: $font-weight-extra-bold;
-  letter-spacing: -0.01em;
-}
 .location {
   font-size: 0.92rem;
-  color: theme-var(color-muted);
-  margin-top: 0.2rem;
+  color: theme-var(color-text);
 }
 .label {
   font-size: 0.7rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: theme-var(color-muted);
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.35rem;
 }
 .value {
   font-size: 0.95rem;
@@ -109,16 +105,16 @@ $short-panel-height: 760px;
 
   .heading {
     margin-bottom: 1rem;
-    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    font-size: clamp(1.35rem, 2.7vw, 2rem);
   }
 
   .lead {
     margin-bottom: 0.8rem;
-    font-size: 1rem;
+    font-size: 0.92rem;
   }
 
   .body {
-    font-size: 0.94rem;
+    font-size: 0.86rem;
   }
 
   .side {

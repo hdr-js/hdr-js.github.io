@@ -388,18 +388,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: $spacing-lg;
+  padding: clamp(1.25rem, 4vw, 3.5rem);
   background: rgba(0, 0, 0, 0.58);
 }
 
 .modal {
   position: relative;
-  width: min(840px, 100%);
-  max-height: min(82vh, 760px);
+  width: min(920px, calc(100vw - clamp(2rem, 8vw, 7rem)));
+  max-height: min(86svh, 780px);
   overflow-y: auto;
   border: 1px solid theme-var(color-line);
   background: theme-var(color-background);
-  padding: 3.25rem;
+  padding: clamp(3.25rem, 5vw, 4.75rem);
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.22);
 }
 
@@ -427,9 +427,9 @@
 .modalHeader {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 1rem;
-  padding-right: 2.75rem;
+  align-items: start;
+  gap: 1.25rem;
+  padding-right: 3rem;
 }
 
 .modalAvatar {
@@ -464,54 +464,69 @@
   min-width: 0;
 }
 
-.modalKicker {
-  margin: 0 0 0.5rem;
-  color: theme-var(color-muted);
-  font-size: 0.68rem;
-  font-weight: $font-weight-bold;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
 .modalTitle {
   margin: 0;
   font-size: clamp(1.25rem, 2vw, 1.75rem);
   line-height: 1.15;
 }
 
-.modalRole,
-.modalRelationship {
+.modalRole {
   margin: 0.45rem 0 0;
   color: theme-var(color-muted);
   font-size: 0.82rem;
   line-height: 1.5;
 }
 
+.modalRoleLine {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-width: 0;
+}
+
+.mobileProfileLink {
+  display: none;
+}
+
 .modalRelationship {
-  font-size: 0.68rem;
+  margin: clamp(2.5rem, 4vw, 3.75rem) 0 0;
+  color: theme-var(color-muted);
+  font-size: 0.72rem;
   letter-spacing: 0.08em;
+  line-height: 1.45;
   text-transform: uppercase;
 }
 
 .modalQuote {
-  margin: 3rem 0 0;
+  margin: 0.75rem 0 0;
   max-width: 66ch;
   font-size: clamp(1rem, 1.6vw, 1.14rem);
   line-height: 1.78;
+}
+
+.modalDate {
+  margin: clamp(2rem, 4vw, 3rem) 0 0;
+  color: theme-var(color-muted);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+  text-transform: uppercase;
 }
 
 .profileLink {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 34px;
+  align-self: start;
+  min-height: 28px;
   border: 1px solid theme-var(color-line);
   border-radius: 999px;
-  padding: 0.35rem 0.85rem;
+  padding: 0.22rem 1.05rem;
   color: theme-var(color-text);
-  font-size: 0.78rem;
-  font-weight: $font-weight-bold;
+  font-size: 0.68rem;
+  font-weight: $font-weight-regular;
   white-space: nowrap;
+  gap: 0.4rem;
 
   &:hover {
     color: $color-primary-green;
@@ -522,31 +537,88 @@
 @include respond-below($breakpoint-sm) {
   .modalBackdrop {
     align-items: flex-end;
-    padding: $spacing-md;
+    padding: 0.75rem;
   }
 
   .modal {
-    max-height: 82vh;
-    padding: 1.6rem;
+    width: 100%;
+    max-height: min(88svh, 720px);
+    padding: 1.35rem;
   }
 
   .modalHeader {
     grid-template-columns: auto minmax(0, 1fr);
-    padding-right: 2.5rem;
+    align-items: start;
+    gap: 0.8rem;
+    padding-right: 2.35rem;
+  }
+
+  .modalTitle {
+    font-size: 1.05rem;
+    line-height: 1.18;
+  }
+
+  .modalRole {
+    margin-top: 0.3rem;
+    font-size: 0.68rem;
+    line-height: 1.35;
+  }
+
+  .modalRoleLine {
+    align-items: center;
+  }
+
+  .modalRelationship {
+    margin-top: 1.35rem;
+    font-size: 0.56rem;
+    letter-spacing: 0.06em;
+    line-height: 1.45;
   }
 
   .profileLink {
-    grid-column: 2;
-    justify-self: start;
-    margin-top: 0.3rem;
+    display: none;
+  }
+
+  .mobileProfileLink {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    color: theme-var(color-text);
+
+    svg {
+      width: 0.95rem;
+      height: 0.95rem;
+    }
+
+    path {
+      stroke: currentColor;
+    }
   }
 
   .modalAvatar {
-    width: 48px;
-    height: 48px;
+    width: 42px;
+    height: 42px;
   }
 
   .modalQuote {
-    margin-top: 2rem;
+    margin-top: 0.6rem;
+    font-size: 0.92rem;
+    line-height: 1.62;
+  }
+
+  .modalDate {
+    margin-top: 1.5rem;
+    font-size: 0.56rem;
+    letter-spacing: 0.08em;
+  }
+
+  .closeBtn {
+    top: 0.9rem;
+    right: 0.9rem;
+    width: 34px;
+    height: 34px;
   }
 }
