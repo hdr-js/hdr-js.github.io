@@ -141,7 +141,9 @@ export type Recommendation = {
   quote: string;
   name: string;
   title: string;
-  company: string;
+  company?: string;
+  relationship?: string | null;
+  imageUrl?: string;
   profileUrl?: string;
 };
 
