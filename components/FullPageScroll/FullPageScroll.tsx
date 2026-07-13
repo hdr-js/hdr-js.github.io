@@ -35,12 +35,16 @@ const FullPageScroll: React.FC<Props> = ({ sections }) => {
   };
 
   useEffect(() => {
+    const modalLocksPageScroll = () => Boolean(document.querySelector("[data-fullpage-lock='true']"));
+
     const onWheel = (e: WheelEvent) => {
+      if (modalLocksPageScroll()) return;
       e.preventDefault();
       if (locked.current || Math.abs(e.deltaY) < 12) return;
       go(idxRef.current + (e.deltaY > 0 ? 1 : -1));
     };
     const onKey = (e: KeyboardEvent) => {
+      if (modalLocksPageScroll()) return;
       if (["ArrowDown", "PageDown", " "].includes(e.key)) {
         e.preventDefault();
         go(idxRef.current + 1);
@@ -57,9 +61,11 @@ const FullPageScroll: React.FC<Props> = ({ sections }) => {
     };
     let sy = 0;
     const ts = (e: TouchEvent) => {
+      if (modalLocksPageScroll()) return;
       sy = e.touches[0].clientY;
     };
     const te = (e: TouchEvent) => {
+      if (modalLocksPageScroll()) return;
       const dy = sy - e.changedTouches[0].clientY;
       if (Math.abs(dy) > 45) go(idxRef.current + (dy > 0 ? 1 : -1));
     };

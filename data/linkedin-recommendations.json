@@ -1,0 +1,634 @@
+[
+  {
+    "name": "Elsa Filippidou",
+    "title": "Product Owner · Technical PO · AI Fluency",
+    "relationship": "November 17, 2025, Elsa worked with Haider Ali but on different teams",
+    "recommendation": "Haider’s passion for frontend development made a clear and positive impact at doctari. His enthusiasm, combined with his consistently positive attitude, contributed meaningfully to our engineering teams. I’m confident that he will bring the same energy and commitment to any future role.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQF5tNfYfSj5nQ/profile-displayphoto-scale_100_100/B4DZuynQONG8Ac-/0/1768228196089?e=1785369600&v=beta&t=TqyJ-HAoGrMIcM0TTiRXriT22csJHP5bGGihx6Pf-U8",
+    "linkedinUrl": "https://www.linkedin.com/in/elsa-filippidou/"
+  },
+  {
+    "name": "Alice Case",
+    "title": "Design Lead | Stanford certified in Design Thinking | Educator | Painter",
+    "relationship": "June 13, 2023, Alice worked with Haider Ali on the same team",
+    "recommendation": "Haider is a strong and thoughtful engineer who thinks deeply about the best way to solve a given problem within project constraints. He takes the time to fully understand the challenge, gather information and participates fully in finding solutions. He was an asset to our team and a pleasure to work with.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4E03AQFjhpP1lOgZ6A/profile-displayphoto-shrink_100_100/B4EZXv5in0HMAU-/0/1743486594170?e=1785369600&v=beta&t=-tQFJAJoUc0j0rX8-ASR2Nl3uPFADHK0txoCwRnWU7c",
+    "linkedinUrl": "https://www.linkedin.com/in/alice-case-product-designer/"
+  },
+  {
+    "name": "Henrike Grabert",
+    "title": "Marketing Leader | B2B SaaS & Digital Products | Product Marketing, Demand Generation & Strategy",
+    "relationship": "June 6, 2023, Henrike worked with Haider Ali but on different teams",
+    "recommendation": "I had the pleasure of working with Haidr as a Senior Product Marketing Manager, and I must say it was an absolute delight. Haidr is not only a talented Software Engineer and Front-end Developer but also an exceptional team player. What stood out the most about Haidr was his friendly and collaborative nature. He seamlessly integrated into our dynamic cross-functional teams, effectively contributing to our projects with his agile mindset. Whether working within a large engineering team or as a lone engineer, Haidr's adaptability and professionalism shone through. I wholeheartedly recommend Haidr for any future endeavors. His technical expertise, collaborative spirit, and passion for design make him an invaluable asset to any team. It was a pleasure working with Haidr, and I am confident that he will continue to excel in his career.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFxwQta8NUkqg/profile-displayphoto-scale_100_100/B4DZ3zShOVH0Ag-/0/1777903212210?e=1785369600&v=beta&t=HO-DSpaQRoIUw9qEVKndoMKe1llLHZRfXNEN8e5gURM",
+    "linkedinUrl": "https://www.linkedin.com/in/henrike-grabert-642012187/"
+  },
+  {
+    "name": "Nathalie Gocht",
+    "title": "Bioinformatics | Data Science | Machine Learning",
+    "relationship": "June 5, 2023, Nathalie worked with Haider Ali on the same team",
+    "recommendation": "Haider is a very welcoming, positive, helpful and team-oriented person. I had the opportunity to work with Haider on multiple projects where I experienced his proactive and detail-oriented personality. After a short onboarding phase he quickly became an essential part of our team and was very eager to support in many process from feature discovery to the final testing phases. With his positive energy he greatly impacted our work environment and with his openness, honesty and engagement he is a great addition to every team.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C5603AQGc20tRofPZ3A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516935410442?e=1785369600&v=beta&t=sUdEsQ6zrZ-UT3jNG6jW-q1c_9aOwWVZE4-ICqLFWuI",
+    "linkedinUrl": "https://www.linkedin.com/in/nathalie-gocht-663463ba/"
+  },
+  {
+    "name": "Bernadette Christine Ritscherle",
+    "title": "Chief of Staff / Head of CEO Office @ BIOTRONIK | ex-Roland Berger",
+    "relationship": null,
+    "recommendation": "It has been an absolute pleasure working and collaborating with Haider at Sharpist. Despite us working in different functions, I could always tell that he deeply cares about his colleagues and the company. I appreciating him very proactively offering his support and contributing actively to the company's culture!",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQHrpIVMf9dn4A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1588997609629?e=1785369600&v=beta&t=jhea5W-tUmTNGBIkUvTmF4UmYaJ0Tw0kZ2GKv1rzmag",
+    "linkedinUrl": "https://www.linkedin.com/in/bernadette-christine-ritscherle-39a51125/"
+  },
+  {
+    "name": "Henrik Waerland",
+    "title": "Project Manager at Wargaming",
+    "relationship": "June 2, 2023, Henrik worked with Haider Ali but on different teams",
+    "recommendation": "Thoroughly enjoyed working with Haider, he’s a reliable engineer who often delivers far beyond expectations. He’s an excellent communicator who  efficiently resolves blockers/issues and does a great job facilitating collaborations across disciplines, resulting in successful releases of the features we’ve worked on together",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4E03AQHsEjLjCbT_Lg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1714147616288?e=1785369600&v=beta&t=7Bk1Ezh023ssiQini4xhNFf9UslAXnVO0eyyvUa-cr0",
+    "linkedinUrl": "https://www.linkedin.com/in/henrik-waerland/"
+  },
+  {
+    "name": "Roberta Sgariglia",
+    "title": "Data & AI Lead | Educator",
+    "relationship": "May 31, 2023, Roberta worked with Haider Ali on the same team",
+    "recommendation": "Haider is an incredible person to work with: he is highly skilled, methodical, structured, is very good at articulating his thought processes and explaining his rationale and work. During the time we worked together he was onboarded very quickly on a wide range of projects and was able to contribute meaningfully very quickly. He documented his work and was so organised that he made it easy for other team mates to pick up and learn what he had done. On a personal note, Haidar is a friendly, open, communicative, empathetic colleague with a great sense of humour, always willing to help others and generously share his knowledge.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQH4SlIryKrzbA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727524066491?e=1785369600&v=beta&t=ZDbvX6OGOSDZgbC4PsoqZd7Iadb9eRYNUuD5gqxbHvc",
+    "linkedinUrl": "https://www.linkedin.com/in/roberta-sgariglia/en/"
+  },
+  {
+    "name": "Martin Böttcher",
+    "title": "Senior Software Engineer (TypeScript, React, NodeJS)",
+    "relationship": null,
+    "recommendation": "I am pleased to recommend Haider, whom I had the privilege to hire and onboard to our team. From day one, he contributed valuable insights and displayed an impressive ability to ask probing questions that got to the heart of issues. Quickly, Haider became an essential part of our team. He consistently delivered top-quality, well-documented code and took ownership of complex features with confidence and skill. His commitment didn't stop there – he was always ready to assist and mentor new team members, further proving his integral role in our team. In addition to his technical abilities, Haider's positive energy and genuine care for others truly set him apart. He has a knack for uplifting the team and creating a productive work environment. In short, Haider is a brilliant professional and a team player. He's a valuable asset to any team requiring dedication, technical excellence, and a collaborative spirit. I wholeheartedly recommend him.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFD_RfZahAQtA/profile-displayphoto-scale_100_100/B4DZkqIu6oHwAc-/0/1757348557455?e=1785369600&v=beta&t=iOYEZIfSl7MfP9Ukc9gNLxxWa1Xt4KJZtq-iHsHIbrY",
+    "linkedinUrl": "https://www.linkedin.com/in/martinboettcher/"
+  },
+  {
+    "name": "Chamika Hasanthi",
+    "title": "Senior Mobile Developer",
+    "relationship": "January 8, 2023, Chamika worked with Haider Ali on the same team",
+    "recommendation": "Haider is a very proactive, multi skilled, and knowledgeable individual. It's a pleasure that we could work together on the same team in Sharpist. He is a well connected professional that always takes the time to support anyone in his network. Haider is a self motivated and intelligent team player. He is a responsible and technically sound employee who is a great asset to any company. I highly recommend him.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4E03AQFFy2AuG3K6qg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1666133196135?e=1785369600&v=beta&t=cyJ84pEG2w-0gKBm1LIz1MtuHJgEh6689V0ye4SJ9d4",
+    "linkedinUrl": "https://www.linkedin.com/in/chamika-hasanthi-aa093049/"
+  },
+  {
+    "name": "Ella Yuna Jeong",
+    "title": "Product & Design @Kittl",
+    "relationship": "November 10, 2022, Ella Yuna worked with Haider Ali on the same team",
+    "recommendation": "Haider is a passionate, empathetic, and genuine person who went above and beyond with everything he worked on. With his intuitive sensibility and drive to improve ways of working, he played a crucial role when it came to understanding where our biggest room for improvement is, what's lacking, etc. and how we can move forward. Haider is action-oriented and caring for his teammates. I'd be most happy to work with Haider again in the future.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQERh_bhnRCPsw/profile-displayphoto-scale_100_100/B56ZvXd4bLJUAc-/0/1768846496685?e=1785369600&v=beta&t=Y3z5YdVSJsaSVnYqP_QHX7VwDtDh27FV3mVVaK_bIUc",
+    "linkedinUrl": "https://www.linkedin.com/in/ella-yuna-jeong-87500056/"
+  },
+  {
+    "name": "Wai Sum Choy",
+    "title": "Product Designer | B2B SaaS | AI-Native & Data-Informed Design | Simplifying Complex Workflows into Scalable Systems",
+    "relationship": "October 31, 2022, Wai Sum worked with Haider Ali on the same team",
+    "recommendation": "I worked with Haider at Sharpist in the same team and collaborated several times. He was highly professional and patient in explaining the feasibility of the proposed design work and tried his best to explore convincing alternatives to achieve the purposes. I was impressed by his innovative presentation skills, making it easy for members to understand the technical steps. Haider is not only a talented developer but also an empathic colleague who truly cares about developing a better team with all of us.  I have enjoyed the collaboration with Haider and he would be a valuable teammate in your team.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4E03AQE9JO75O51PXQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1690555229126?e=1785369600&v=beta&t=v83SF5-TRisEohOIqk2tKyhp9Nqc1wevTyZx-5urKQU",
+    "linkedinUrl": "https://www.linkedin.com/in/waisumchoy/"
+  },
+  {
+    "name": "Victor von Eisenhart-Rothe",
+    "title": "Data-Engineer & Psychologist (M.Sc.)",
+    "relationship": "October 26, 2022, Victor worked with Haider Ali on the same team",
+    "recommendation": "Haider is great to work with. His ability to find his way in a new environment is impressive and his frontend engineering skills are sophisticated. He has a very positive attitude and communicative abilities and is great to get along with. Kudos to you, Haider!",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFMz8Jcnk08-Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1678447291312?e=1785369600&v=beta&t=V0-OzD99J5nyPzdeZFljIA8OdzQEHl3ztuMJVgltyfI",
+    "linkedinUrl": "https://www.linkedin.com/in/victor-von-eisenhart-rothe/"
+  },
+  {
+    "name": "Tim Tenckhoff",
+    "title": "Associate Manager @ Netlight",
+    "relationship": "October 24, 2022, Tim worked with Haider Ali on the same team",
+    "recommendation": "Haider is an enrichment for every team. As a person, he is very pleasant to work with and has not only contributed to the product with his problem-solving skills and extensive experience as a front-end developer, but also by driving its further development positively while contributing his own ideas.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQFLKQFOLT1h-Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1620038942841?e=1785369600&v=beta&t=ooX1vQ7A67ILN56E7EXfJ9P_NYmx9yVtcKtatPGPvt4",
+    "linkedinUrl": "https://www.linkedin.com/in/tim-tenckhoff/"
+  },
+  {
+    "name": "Eli Fabrikant",
+    "title": "Senior Software Engineer | System Design · AI-Assisted Development · Product Thinking",
+    "relationship": null,
+    "recommendation": "Haider is a brilliant software engineer: he is trustworthy, communicates extremely well, proactive, he writes high quality scalable and well designed code. I had the fortune to work with Haider in a cross functional team and enjoyed every minute of the collaboration.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQELpb11ZlMDVA/profile-framedphoto-shrink_100_100/B4DZ2uvoKaGcAk-/0/1776753214467?e=1784505600&v=beta&t=7mxwb3XHGGlOM-JqrkVhR4TWEHTwuoWiYQyMqWUQzsU",
+    "linkedinUrl": "https://www.linkedin.com/in/eli-fabrikant/"
+  },
+  {
+    "name": "Chris Darnell",
+    "title": "Head of Partnerships | Tech",
+    "relationship": "August 10, 2021, Chris managed Haider Ali directly",
+    "recommendation": "Haider was an absolute pleasure to work with. Despite working remotely he maintained the utmost professionalism throughout his contract and the quality of his work was second to none. We’re going to miss having him part of the team and I hope we cross paths again in the future!",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQHdZqc8y4XJLA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1637731054416?e=1785369600&v=beta&t=2VK_APlqKv0FVlVCuCdKwCI3AlkRvSf_rYfl6xpKM8w",
+    "linkedinUrl": "https://www.linkedin.com/in/chrisjamesdarnell/"
+  },
+  {
+    "name": "Muhammad Abdul Rahman",
+    "title": "Senior Software Quality Control Engineer | Fintech QA | Manual Testing | Automation, API & Performance | k6 | Mitmproxy | Appium",
+    "relationship": null,
+    "recommendation": "Haider is an excellent resource and a master at Front-end Development. Haider has been a tremendous asset to his clients. I know Haider as a hardworking and very serious team player. Haider is a great networker, and certainly can get my full recommendation.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQGgCjB7lfY1QA/profile-framedphoto-shrink_100_100/B4DZuUzgdKKQAk-/0/1767728089232?e=1784505600&v=beta&t=eaCQ0z5Q-ME6gwq20x9LyIPUnmj_fD90D6On0f1eKMg",
+    "linkedinUrl": "https://www.linkedin.com/in/muhammad-abdul/"
+  },
+  {
+    "name": "Ambreen Athar",
+    "title": "People & Culture Consultant | London School of Economics Postgraduate | Assoc. CIPD | Chevening Alumna",
+    "relationship": null,
+    "recommendation": "Haider brings a really positive energy to the workplace. He comes across as a genuinely warm, friendly and helpful person. Though we didnt work directly on technical projects together, he was always willing to help us out with HR engagement initiatives and I felt very comfortable reaching out to him for any help I needed in \"rallying the troops!\"",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQE_lEtV9ByAiA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1609873652886?e=1785369600&v=beta&t=Vhfcwe_tNAYMKruOlIIgSF7z8EOiBIl3w-bhPT9nDcg",
+    "linkedinUrl": "https://www.linkedin.com/in/ambreenathar/"
+  },
+  {
+    "name": "Mazhar Hassan",
+    "title": "CTO | Scale Architect & Transformation Leader | I take platforms from thousands to millions — reliably, securely & visibly | Mobility • Retail • Telecom • Energy",
+    "relationship": "July 31, 2020, Mazhar managed Haider Ali directly",
+    "recommendation": "It was wonderful to work together with Haider Ali, who was an outstanding Engineer. Strong, knowledgeable and responsible. Whenever I had a problem, there has never been a time he has left me without a solution. Haider Ali will find a way to weather any storm with a smile.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHvWZACmdcROg/profile-displayphoto-shrink_100_100/B4DZYZFwW1GwAY-/0/1744177661737?e=1785369600&v=beta&t=kzvzygz2BH7h_DfhgKtSQCnc9N_m5BTCAdXEZjhIR80",
+    "linkedinUrl": "https://www.linkedin.com/in/mazhar360/"
+  },
+  {
+    "name": "Qindeel Riaz",
+    "title": "AWS Certified, specialises in System Design & Architect | Instrumental in building efficient & profitable engineering function",
+    "relationship": "July 29, 2020, Qindeel managed Haider Ali directly",
+    "recommendation": "I've worked alongside Haider for close to a year and a half as his manager. During this time, I've seen him not only excel at the core elements of his job like requirement analysis and development but also learn other tasks that extend well beyond the scope of his role, like event planning, and building JS community within and outside of the organization. He took the time to spearhead initiatives to improve the existing code base by proper structuring and introducing reusable components. He has positive attitude and desire to produce quality work. I really have optimistic predictions for his career trajectory.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C5103AQHXeqKGwmwdxg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1531983257802?e=1785369600&v=beta&t=zJ6RaQC87h6V2Reuop_Dt0Wu0uAB-ZfZcTO0f7Gxg9s",
+    "linkedinUrl": "https://www.linkedin.com/in/qindeel-riaz-28b128169/"
+  },
+  {
+    "name": "Rizwan Arshad",
+    "title": "CTO | VP Engineering | Head of Technology | Solutions Architect AI & Cloud Transformation Leader | DevOps & Full-Stack Expert",
+    "relationship": "July 29, 2020, Rizwan worked with Haider Ali on the same team",
+    "recommendation": "Haider Ali is one of the most dedicated persons through his work at VendtureDive. Proactive, ambitious, dedicated and broad minded perfectionist. Has an easiness to build interpersonal relations with others. Result driven, experienced and efficient team player. Deliver results and move on. That's Haider Ali's way. Haider Ali worked far beyond the call of duty. I thoroughly appreciated collaborating with him at VendtureDive.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQFT_KRG2EiRww/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1662017172687?e=1785369600&v=beta&t=KsvIAAMe6dZX9eql26Udi4zWr3k145-5j-lcRkzM48E",
+    "linkedinUrl": "https://www.linkedin.com/in/mrizwanarshad/"
+  },
+  {
+    "name": "Arslan Khan",
+    "title": "Quality Lead at Starzplay || Ex-Retailo || Ex-Careem || Ex-VentureDive",
+    "relationship": null,
+    "recommendation": "I worked with Haider on two different projects as Lead QA, Haider accepted the challenge even in tough situation and delivered all the builds on time and Builds quality was good and we hardly found major issues in his code. His dedication was extra ordinary. He will be surely a best addition in any team.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQGZg1Fdorw2dw/profile-framedphoto-shrink_100_100/B4DZ8dtOhtHQAg-/0/1782909823454?e=1784505600&v=beta&t=ftiUHbQdcAhn2DYIuavqvXUehlRNZ-V-dk3ngSJCXUk",
+    "linkedinUrl": "https://www.linkedin.com/in/arslan-khan-03303a143/"
+  },
+  {
+    "name": "Naveed Qasim",
+    "title": "Senior Product Designer @ Bobtail | User Experience (UX)",
+    "relationship": "July 26, 2020, Naveed worked with Haider Ali on the same team",
+    "recommendation": "I had the pleasure of working with Haider at VentureDive, collaborating mainly on munchies and several other web-related projects. Haider's ability to handle front-end problems was unlike any I’ve seen before and made a dramatic increase in the productivity level of our product. He also has a great sense of design which makes it a breeze to work with him on end to end flows.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGGsHcxP04V8w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1690288562951?e=1785369600&v=beta&t=QHw3_KCpDJDGzKrB3DQLhgBW4g60IBBKXB6H-fhnzEg",
+    "linkedinUrl": "https://www.linkedin.com/in/naveedqasim/"
+  },
+  {
+    "name": "Farhan Tahir",
+    "title": "Lead Software Engineer (iOS) at VentureDive",
+    "relationship": null,
+    "recommendation": "Haider is passionate, hardworking and team player person. He is extremely dedicated towards his assigned tasks. He loves playing with technologies, doing experiments and taking risks which due to his very progressive attitude. In addition to that he has good sense of humor which let him to maintain good environment in team. I highly recommend Haider and I think he would be a great asset to any company",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQG6qVghaFFO4A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1728839454928?e=1785369600&v=beta&t=LvKtbB8O-sZnX4Y17s4nSqne5_7ET4Iq_M-R5TRXAwY",
+    "linkedinUrl": "https://www.linkedin.com/in/farhan-tahir-395b1989/"
+  },
+  {
+    "name": "Sultan Ahmed Khan",
+    "title": "Principal Software Engineer | Java | Spring Boot | Android | Angular | Fintech",
+    "relationship": null,
+    "recommendation": "I have been working with Haider for  more than 1 year. He is a very talented and hard working person. He contains great technical skills and knowledge related to MERN Stack. His problem solving skills are best and he is very much devoted to his to his work.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQHBecPLddsqeQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1640931198421?e=1785369600&v=beta&t=TNvCQs3sxIRxlPGe0dv6wEmyt87MMrPAZQoZf3WS9Gk",
+    "linkedinUrl": "https://www.linkedin.com/in/sultan-ahmed-khan/"
+  },
+  {
+    "name": "Muhammad Bin Khalid",
+    "title": "Product @ Zalando, Berlin | Ex- CPO at BaadMay (BNPL) 🏦 | Ex-Head of Product and Co-Founder at Munchies 🍫 | Product, Data, Design and Growth enthusiast |",
+    "relationship": "July 21, 2020, Muhammad Bin managed Haider Ali directly",
+    "recommendation": "I have been working with haider for over one year as his Product Manager. He has been one of the most hard working members in my team. He has the ability to take lead in development activities and has a strong grip over different js stacks, react in particular. He has always shown the will to learn more in his field and tries to go above and beyond to what has been to him.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFhsa2uFzTeVw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1648024944265?e=1785369600&v=beta&t=WiXMklYmrPyfJE8JXnQ2c3IIjJZBQq_Y05RntjoaJTM",
+    "linkedinUrl": "https://www.linkedin.com/in/mbk1993/"
+  },
+  {
+    "name": "Tayyab Razaq",
+    "title": "Software Engineer @ Zalando",
+    "relationship": null,
+    "recommendation": "We worked in the same team for more than two years and I always found him hardworking and passionate to writing clean, reusable, and extendable components in ReactJs. He always loves to learn new stuff and getting improve by beating his last day version. I wish him luck for his future endeavor.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C5603AQEGZ1Yo2n6TUw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517281280569?e=1785369600&v=beta&t=obZyhgHBd3kzRC6DhZn2A7phHwicKHFKe-zRnAVWpfg",
+    "linkedinUrl": "https://www.linkedin.com/in/tayyab-razaq-2926a466/"
+  },
+  {
+    "name": "Stifnes Samuel",
+    "title": "Senior Software Engineer",
+    "relationship": null,
+    "recommendation": "Haider is an extremely talented, enthusiastic developer and also a great team player. I have had the opportunity to work with him on a bunch of projects and as expected, I have always been amazed by his performance and commitment to his work. What differentiate Haider from other people is his approach to finding a solution to any problem. He does not back out from any challenge and that what makes him great at his job.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQFMGKpMrQP2bQ/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1675072608643?e=1784505600&v=beta&t=C_BFLhv0ajqlxSsUEhn3aZMAdjQpdSgh4gMJZ2ZTbUE",
+    "linkedinUrl": "https://www.linkedin.com/in/stifnes-samuel-357300102/"
+  },
+  {
+    "name": "Hamza Ali Sajjad",
+    "title": "Senior Software Engineer | Java · Kotlin · Microservices · Event-Driven Architecture | Berlin",
+    "relationship": "July 21, 2020, Hamza Ali worked with Haider Ali on the same team",
+    "recommendation": "I had the pleasure of working with Haider for around six months and I have to say he is a passionate and talented frontend developer who always strives for better code quality and maintainability. I recommend him as a professional whose work in the team inspires others.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGYiNa9b1lISA/profile-displayphoto-scale_100_100/B4DZh19QemG8Ag-/0/1754325649959?e=1785369600&v=beta&t=HmWIcyziyhoyoy_8x4SVBLV4dfpBhPCpwi9VJ0cvHRs",
+    "linkedinUrl": "https://www.linkedin.com/in/hamza-ali-sajjad/"
+  },
+  {
+    "name": "Sania Khushbakht Jamil",
+    "title": "AI Product Builder and iGaming - Payments, Subscription, SaaS",
+    "relationship": "July 21, 2020, Sania Khushbakht worked with Haider Ali on the same team",
+    "recommendation": "Haider has worked with me to host a first of its kind event for professionals in Front end development. I can certainly say that Haider has got amazing leadership and collaboration skills. He thinks out of the box when he faces a problem and it goes for problems in professional and personal life. If someone is looking for a person with good development and interpersonal skills, Haider is that person.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQGzF8LQAIgTQw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1600949248825?e=1785369600&v=beta&t=krX7p1std-iQ75mFuUk7SJSGC5WcDgYnpjjigxwKhbU",
+    "linkedinUrl": "https://www.linkedin.com/in/saniakjamil/"
+  },
+  {
+    "name": "Jahanzaib Suleman",
+    "title": "Software Engineer (Frontend | Fullstack) | Berlin | Javascript, Typescript, React, Next.js, Node.js | Bootstrap Contributor | Driving Innovation in Education, Mobility & IoT",
+    "relationship": null,
+    "recommendation": "Haider is very competitive, passionate and fast learner. I know him from VentureDive and he is a valuable asset to any team due to his optimistic attitude, 'can-do' behaviour and characteristic of being a team player. He is very good at problem solving and full of new ideas. His technical skills and habit of writing clean and optimized code has always added a value to any project he has worked for. I wish him good luck for any kind of future endeavour.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHlEs6wkQBijQ/profile-displayphoto-scale_100_100/B4DZ43fiegI4Ac-/0/1779047475861?e=1785369600&v=beta&t=_RdMOFIK1ot24V2HnVHURZbJs3FQVFnViKXTANHaJ44",
+    "linkedinUrl": "https://www.linkedin.com/in/jahanzaib-suleman/"
+  },
+  {
+    "name": "Rizwan Majeed",
+    "title": "Engineering Manager | Leader | Value Driven | Software Architect | Building Teams",
+    "relationship": null,
+    "recommendation": "I have worked with Haider and found him a very dedicated and hardworking developer who always put all his efforts to complete his assignments before time. He always welcome challenges, willing to learn new technologies and then share his knowledge among his team mates. Haider is a sharp developer who has expertise in developing good and efficient solutions for given tasks. Haider is an asset for any organization and i wish him best of luck for his future career.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQG129YB_U5LLA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1573533297515?e=1785369600&v=beta&t=Yr6tqCBgeEcrCU3p-PO1Z9g6oKjB8Dh8D9JFfW7kSU0",
+    "linkedinUrl": "https://www.linkedin.com/in/rizmajeed/"
+  },
+  {
+    "name": "Afaq Ahmed Khan",
+    "title": "Sr Full-Stack Engineer | TypeScript, React, Next.js, Python, FastAPI | AI Products",
+    "relationship": null,
+    "recommendation": "Haider was a fantastic person to work with, and is not only a multi-skilled and insightful colleague, but also an inspiring strategist. Very good person. Great employee with a very strong problem solving skills. Haider is an asset to any company.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQGxCEYtYGbz-w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1597260886777?e=1785369600&v=beta&t=ZTGUMZlBjpGGGFXSAMbg70tZkk5Mp_hpZOw9Xb7Sk_c",
+    "linkedinUrl": "https://www.linkedin.com/in/afaq-ahmed-khan/"
+  },
+  {
+    "name": "Faisal Amin",
+    "title": "VP Software Engineering | Engineering Leadership | AI-Assisted Software Engineering | Digital Transformation | VentureDive",
+    "relationship": "July 21, 2020, Faisal managed Haider Ali directly",
+    "recommendation": "Haider is an energetic and clear headed professional.  He loves to get into technical details beyond ordinary level and solving complex problems. Plus his pleasant and helping personality makes him a very good team player.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFxjiqT8cW9cg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1706712629911?e=1785369600&v=beta&t=NZ9agLN_f95SQ6xFPw53T7Gz9yV-vorLiFGL8JoGFZo",
+    "linkedinUrl": "https://www.linkedin.com/in/faamin/"
+  },
+  {
+    "name": "Usman Saleem",
+    "title": "Software Engineer @ reev | 1x AWS Certified | Full Stack | Javascript | Typescript | Angular | React | Nodejs",
+    "relationship": "July 21, 2020, Usman worked with Haider Ali on the same team",
+    "recommendation": "I worked with Haider on multiple projects. He has always been great problem solver, critical thinker and a good team player. As far as his development skills is concerned, I found him extraordinary in this domain also. His approach to solving a problem was very insightful and I learned a lot from him as well. Timely delivery and high-quality code standards are his attributes worth mentioning. I highly recommend Haider and I think he would be a great asset to any company",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4E03AQHLjk6XbLOMzg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1693398566999?e=1785369600&v=beta&t=2n_fsAA0acVCRYmZid3mrB1Ucj63NamH1OdORT6z8J4",
+    "linkedinUrl": "https://www.linkedin.com/in/usmansaleem29/"
+  },
+  {
+    "name": "Umair Farooq",
+    "title": "Full stack developer(React | Redux | React-native| node | express )",
+    "relationship": null,
+    "recommendation": "Haider is a great person to work with, he can solve complex problems provide a elegant and re-useable solution. He motivates his colleague and increases productivity by his ideas. I highly recommend Haider",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQE6R9D3AKiI0g/profile-framedphoto-shrink_100_100/B4DZyJd.2mHIAk-/0/1771832864685?e=1784505600&v=beta&t=RwSU_fYHV6mjhwBtehzuoPZcbTI9qbWlK9WNbylLP7Q",
+    "linkedinUrl": "https://www.linkedin.com/in/umair-farooq-70a097125/"
+  },
+  {
+    "name": "Hafsa Saleem",
+    "title": "Product Analyst | Data Analyst",
+    "relationship": "July 21, 2020, Hafsa worked with Haider Ali on the same team",
+    "recommendation": "I worked with Haider for around one year in two different projects. He is a great resource and keen to learn new things. He is always willing to accept new challenges and gives his best in whatever assigned to him. I would say he is definitely a valuable asset for any organisation.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4E03AQFXPz07dLoTkg/profile-displayphoto-scale_100_100/B4EZ4olIl1JoAc-/0/1778797284878?e=1785369600&v=beta&t=yiAumME1fZSA-9iGqfAhCp1NQ3Hhya2dFpSzZ2WnyGY",
+    "linkedinUrl": "https://www.linkedin.com/in/hafsa-saleem-0ab5265b/"
+  },
+  {
+    "name": "Farooq Khan",
+    "title": "Software Engineer @ Delivery Hero | Java | Spring | Microservices",
+    "relationship": "May 5, 2020, Farooq worked with Haider Ali on the same team",
+    "recommendation": "Haider is a very hardworking front end developer. Always learning new technologies and knows ReactJS inside out. I've worked on multiple projects with Haider, and he always keeps the team motivated and environment lively with his hard work and work ethics. He always proved himself to be a positive addition in team.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C5103AQE5AQtmx0U3DQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517527687719?e=1785369600&v=beta&t=rZtuM3LQzUtboD5EdQeiwaOUGxaK4NTJTixKyRaDODo",
+    "linkedinUrl": "https://www.linkedin.com/in/farooq-ahmad-khan/"
+  },
+  {
+    "name": "Abreeza Saleem",
+    "title": "Software Engineer | Typescript, Node.js, React, React Native, AWS",
+    "relationship": null,
+    "recommendation": "I have worked with Haider on multiple projects over the course of last year. Haider professionalism and encouragement always motivated me to do my own part of the job better. He would never fail to raise the motivation of the whole team with his energetic and adventurous approach to solving problems. I highly recommend Haider as a professional programmer whose work in the team makes other team members strive for better results.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGQKvPv6OHSVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723829516584?e=1785369600&v=beta&t=g3zBJp8Z65j8pX4I9C8p1Ydl6QzmANWEpR8AWO1uCGo",
+    "linkedinUrl": "https://www.linkedin.com/in/abreezasaleem/"
+  },
+  {
+    "name": "Adeel Imran",
+    "title": "Senior React Consultant  | TypeScript · Next.js · Node.js | Performance · Design Systems · MVPs",
+    "relationship": null,
+    "recommendation": "Haider & I worked for a shorter tenure but during the time period he proved his mettle. The project that we were working on was extremely complicated & had to be delivered in an unpractical shorter time frame. Not only were we able to deliver that project but we delivered it with quality. One of the reasons for success for that project was Haider. Not only is he a hard worker but a smart worker as well. He can quickly understand & comprehend complex problems & break them down to doable solutions. He is keen on learning & progressing in his career. He is only starting out in his professional career journey. I see him going far ahead if he keeps on doing what he is doing on right now. Extremely talented & an excellent team player. I wish him luck for his future endeavour.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4E03AQGfRBeKhGCVaw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1732044536697?e=1785369600&v=beta&t=1DvIS27kYaLKzpH6KpJtPmw8mbMl_gF8c-tJqMpKMBY",
+    "linkedinUrl": "https://www.linkedin.com/in/adeelimran/"
+  },
+  {
+    "name": "Bilal Rana",
+    "title": "Manager Software Development | Data Engineer at Techlogix Pakistan (Pvt.) Ltd. | Ex-PwC | MS Data Science from ITU | Power BI | Qlik Sense | SSIS | 3 x OCI Certified",
+    "relationship": null,
+    "recommendation": "Haider is very passionate, hardworking, team player person; extremely dedicated to the assigned tasks. He is very good at managing subordinates. I worked with him in a student body at university. He have potential to achieve whatever he aim. His progressive attitude will lead him to mentor, an inspiration for his juniors.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQEoB54n4HEe6A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1724055634107?e=1785369600&v=beta&t=4IFLxFXiJ2eSNDn_nZxMkpcVONeAXhQaUdY6n18Ta_M",
+    "linkedinUrl": "https://www.linkedin.com/in/bilalrana/"
+  },
+  {
+    "name": "Mujtaba Mudassar",
+    "title": "Senior QA Engineer at CDL Software",
+    "relationship": "April 18, 2019, Mujtaba worked with Haider Ali on the same team",
+    "recommendation": "Worked with Haider and found him to be a highly motivated, self driven, forward-thinking who has a lot of knowledge in his field and is always capable of solving problems with best approaches and adapting to new environments. His positive attitude towards work makes him a team player and powerful personality whom people follow in a team.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQEvC-6bTrtMzg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1619508789920?e=1785369600&v=beta&t=Ye3YMZxgVo3qVQzucnaiiIgak5UVmHU5QGwSd_OdGlE",
+    "linkedinUrl": "https://www.linkedin.com/in/mujtaba-mudassar-51b33a7b/"
+  },
+  {
+    "name": "Mervyn Thangarajah",
+    "title": "Operating Executive | Scaling Technology Businesses | Strategy | Execution | Transformation",
+    "relationship": "February 19, 2019, Mervyn worked with Haider Ali on the same team",
+    "recommendation": "I worked with Hider for almost 2 years. In those two years I have seen him not only excel his job but also learn to mentor others and become an acting leader of the UI developers. He is a great asset to any team he is involved with.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C5103AQFP75RFeFKGNw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1546377801453?e=1785369600&v=beta&t=qLEc5WOIh1GiWcblYMGNRwysjCoUGR2kiLxDqH_pDg4",
+    "linkedinUrl": "https://www.linkedin.com/in/mervyn-thangarajah/"
+  },
+  {
+    "name": "Cornelis de Jager",
+    "title": "Software Engineer at Marel Ceder Creek",
+    "relationship": "December 27, 2018, Cornelis worked with Haider Ali on the same team",
+    "recommendation": "Haider has a great personality and honestly great to work with. He often puts in extra effort to get sections of his work done even if it's not required. His a hard worker and reliable.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C5603AQHGoebLUAXOJQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1632371492523?e=1785369600&v=beta&t=TDn2fxeuGp-_7xSlk2FUPzifY4O1Z2mMxsutIa4mCCI",
+    "linkedinUrl": "https://www.linkedin.com/in/cornelis-de-jager-08a03287/"
+  },
+  {
+    "name": "Coenraad Mulder",
+    "title": "Chief Data Officer",
+    "relationship": "December 22, 2018, Coenraad worked with Haider Ali on the same team",
+    "recommendation": "I've had the absolute pleasure of working with Haider as his direct manager. Haider is a highly motivated and skilled resource, always willing to go above and beyond to meet deadlines. He consistently delivers high quality work, regardless of the pace. He is a great team player, innovative and enthusiastic in his approach, and always willing to learn more. I have no reservations in recommending Haider to any team.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQGvy4y1-fg6dQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516433358976?e=1785369600&v=beta&t=Y-UWowK2vo3t2V6vWHrf62KCPFVURfJV0oMnSjwl9MM",
+    "linkedinUrl": "https://www.linkedin.com/in/coenraadmulder/"
+  },
+  {
+    "name": "Muhammad Sami Ul Basit",
+    "title": "Full Stack Development | Microservices |.Net | Javascript | Leadership | Project Management | Help build great teams",
+    "relationship": "December 20, 2018, Muhammad Sami worked with Haider Ali but on different teams",
+    "recommendation": "It was a sheer pleasure working with Haider. His knowledge in new JS frameworks is at par excellence. With an awesome design and aesthetic sense, he can boost any web project with his technical skills and I take no chance in saying that He will be a valuable asset to the team He will be the part of. Way to go Haider, more power to you.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQEsGQ6g_tiExA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1616684333208?e=1785369600&v=beta&t=gtITfT30i4a92pgrGpfdEkb_mF_RhG-sRaiqK5p3UyE",
+    "linkedinUrl": "https://www.linkedin.com/in/msbasit/"
+  },
+  {
+    "name": "Abdul Zahid",
+    "title": "JavaScript Enthusiast, Senior Software Engineer, an Elastician.",
+    "relationship": "December 20, 2018, Abdul worked with Haider Ali but on different teams",
+    "recommendation": "Though I never got a chance to work with Haider in a team, looking back the interactions and discussions with him, I can certainly say he's an energetic and enthusiastic individual and I wish him a continued success in his endeavors.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQHH8FoPP_pmfA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1523426589600?e=1785369600&v=beta&t=6f7GqYQ_9QcX7sc0ysWP81uiJSguUcZpbB3CHq0lH0E",
+    "linkedinUrl": "https://www.linkedin.com/in/awahab07/"
+  },
+  {
+    "name": "Kashif Ejaz",
+    "title": "Global Director, HR Technology (Workday) at Andromeda Group, Constellation Software",
+    "relationship": "December 20, 2018, Kashif worked with Haider Ali but on different teams",
+    "recommendation": "Full of energy, passion and an excellent team player . Good sense of humor too. It has been a pleasure.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQGKdJ5Rp846yA/profile-displayphoto-shrink_100_100/B56ZawN3V8HgAY-/0/1746713147105?e=1785369600&v=beta&t=q0DETKG8-eE79H2CAS1-PalbbVkIDvv4NNkag51TmrE",
+    "linkedinUrl": "https://www.linkedin.com/in/muhammadkashifejaz/"
+  },
+  {
+    "name": "Muhammad Qasim Hunain",
+    "title": "Senior Full Stack developer with focus on Frontend development using angular.",
+    "relationship": null,
+    "recommendation": "I rarely come across real talents who stand out like Haider. I had the pleasure of working with Haider at the Contour-Software, collaborating on several projects. Haider ability to handle multiple projects was unlike any \tI’ve seen before and made a dramatic increase in the productivity level company. No matter how tense a meeting, Haider made sure everyone left with a smile. I wish him success in life.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHVX1yyE1ISLA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1730706107289?e=1785369600&v=beta&t=kCJkGDHyQ3ia7wBH9V4T_HcNuNAOcTtG7hFEcy8xVks",
+    "linkedinUrl": "https://www.linkedin.com/in/muhammadqasimhunain/"
+  },
+  {
+    "name": "Sohaib Shabbir بٹ",
+    "title": "Senior Software Developer Team Lead @ Markinson Business Software Solutions | Certified Scrum Master, Front End Developer",
+    "relationship": "December 20, 2018, Sohaib Shabbir worked with Haider Ali on the same team",
+    "recommendation": "I have had the pleasure of knowing Haider for the past 1.5 years working in the same branch. I found him as a person with great recognition and deep experience of React as well as Graphic designing. he is very passionate and has great vision for his work. His focus keeps everything moving smoothly, he makes sure all the deadlines are met. I would recommend him to anybody.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C5103AQFBnrfGH1tv7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1551623772266?e=1785369600&v=beta&t=LCzsY86Z2AL4sxCuAiKO9kQKLbeI6f4he4g5B9mWoGQ",
+    "linkedinUrl": "https://www.linkedin.com/in/sohaibshabbir/"
+  },
+  {
+    "name": "Muhammad Khobab Zubair",
+    "title": "JavaScript Developer, Front & Back End, Remote Experience",
+    "relationship": "December 20, 2018, Muhammad Khobab worked with Haider Ali but on different teams",
+    "recommendation": "Haider is an enthusiastic and passionate personnel. He leads by example and is a trusted colleague. He makes sure all the deadlines are met, and makes sure that whatever project he is working on meets the highest standards. He is a well connected professional that always takes the time to support anyone is his network. He has a very impressive background and profile and I recommend Haider as a Technology expert to connect with and consider for anything appropriate.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQE_hr83n_e35Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1597732855083?e=1785369600&v=beta&t=NsNf0VLH-Rn5QfWtBAqyd5gq4q6OPnyou-JRryp0dPE",
+    "linkedinUrl": "https://www.linkedin.com/in/khobab/"
+  },
+  {
+    "name": "Muhammad Bilal Anjum",
+    "title": "Senior Software Developer @ FAME | Bachelor's in Information Technology",
+    "relationship": null,
+    "recommendation": "Haider is a talented developer of JavaScript with sound knowledge of appealing UI/UX Design.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGQbKclNjhblQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1672258704807?e=1785369600&v=beta&t=z7ZP8RpG_MYPGfcnpL0M8mkOaJ_r8NEuZkEL-b4NNRM",
+    "linkedinUrl": "https://www.linkedin.com/in/muhammad-bilal-anjum/"
+  },
+  {
+    "name": "Bilal Ahmad",
+    "title": "Engineering Lead at Unifonic",
+    "relationship": "December 16, 2018, Bilal worked with Haider Ali but on different teams",
+    "recommendation": "Haider is one of the most competent and mature software developers I have ever came across. His approach towards work ethics is very professional. He is very good at understanding software requirements and proposing effective solution against them. He has steep learning curve and always willing to share his knowledge with his coworkers.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQHesP5Il4wn-w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1548493583461?e=1785369600&v=beta&t=gDTaSHxpi0KU5E4p7DELLoKNS6c3HVcMZXOn8GjhBUg",
+    "linkedinUrl": "https://www.linkedin.com/in/bilal-ahmad-19b7b5b/"
+  },
+  {
+    "name": "Hammad Ali",
+    "title": "ReactJS developer",
+    "relationship": "October 12, 2018, Hammad worked with Haider Ali on the same team",
+    "recommendation": "Haider Ali is great and passionate developer. I have worked with him almost 6 months in same team and he is good guide as well as human. At last but not least he is my Foosball team partner.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFYx7wHi-M0XQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1686263378919?e=1785369600&v=beta&t=g7sGyGPKRLlwPhgy-jBSbprdS__Y-oREEk9xyLh_aK4",
+    "linkedinUrl": "https://www.linkedin.com/in/hammad-ali-883218159/"
+  },
+  {
+    "name": "Abdul Waheed",
+    "title": "AI-SDLC || GitHub Copilot || Certified ScrumMaster® (CSM) || QA Automation || Playwright || C# || Java || Selenium || SaaS || Azure DevOps || Karate || Cucumber || API || CI/CD || POSTMAN || TestNG || Agile || JUnit ||",
+    "relationship": "October 12, 2018, Abdul worked with Haider Ali but on different teams",
+    "recommendation": "Haider is a creative and self-motivated. He brought good work habits and great business attitude. He is a team player and fun to work with.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQErXvgAzzdVRQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1644328595496?e=1785369600&v=beta&t=TJWg8hg8ECxe4ObLaMavOuXfv3JJAeLwiIuhnpn2AJ4",
+    "linkedinUrl": "https://www.linkedin.com/in/abdul-waheed-55091638/"
+  },
+  {
+    "name": "Asad Siddique",
+    "title": "Product Leader | Payments, Insurance & Digital Platforms | AI-Driven Product Strategy | Scale & Growth",
+    "relationship": "October 12, 2018, Asad worked with Haider Ali but on different teams",
+    "recommendation": "It is with great pleasure that I write this recommendation for the truly exceptional Haider Ali. It is rare to meet a UX/UI designer with as much skillful and awareness of design art as Haider Ali. His sincerity, positivity, and humor are especially astounding given the challenges he has overcome in his professional life.  I'm too much satisfied from him.The most dedicated and hardworking .",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGF-7Z_cxuFSg/profile-displayphoto-scale_100_100/B4DZijCouGG8Ag-/0/1755082034787?e=1785369600&v=beta&t=GwpaOPECiEqcwZkqrTOWzLVtwXBkGH9TyrenQ419_HY",
+    "linkedinUrl": "https://www.linkedin.com/in/asad-siddique-85588897/"
+  },
+  {
+    "name": "Hana A. Samdani",
+    "title": "Business Intelligence Developer | Analytics Consultant | PowerBI Specialist | Data Modeller | ETL",
+    "relationship": "October 11, 2018, Hana A. worked with Haider Ali on the same team",
+    "recommendation": "I have never seen Haider as anything less than a man of integrity, hardwork, enthusiasm and self-belief. The way he has always come out stronger through every storm is truly inspirational. He fights his own battles and supports others in fighting theirs. I have, first hand, seen the urge he holds in himself for learning new concepts and achieving his goals but he has never left his people behind. Haider Ali is, without a doubt, a team player.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQFow9NEwrHX4A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1633716754811?e=1785369600&v=beta&t=k7oLjRiy8TyBCsVBPhxnUhGsHveR7a0ytWVORqj9524",
+    "linkedinUrl": "https://www.linkedin.com/in/hana-a-samdani/"
+  },
+  {
+    "name": "Abdul Rehman Mirza",
+    "title": "Smart Software, Done Right | Founder & CEO, Meissasoft",
+    "relationship": "October 11, 2018, Abdul Rehman worked with Haider Ali on the same team",
+    "recommendation": "Haider Ali is hard working and passionate personal having good skills in web development and UI/UX designing. I highly recommend him. He will be a great resource for any company.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFkv0Q7Yg6SPw/profile-displayphoto-scale_100_100/B4DZx2n.W9G0Ag-/0/1771516721653?e=1785369600&v=beta&t=1FFb9zglJTgCj_Xap8yrzNZVHLdS6dG5oNms9aYksDA",
+    "linkedinUrl": "https://www.linkedin.com/in/abdulrehmanmirza/"
+  },
+  {
+    "name": "Rabee Tasneem",
+    "title": "Principal QA Engineer | CSM Certified Scrum Master®",
+    "relationship": null,
+    "recommendation": "I rarely come across real talents who stand out like Haider. I had the pleasure of working with Haider for two years, collaborating on several project teams. Haider’s ability to handle multiple projects was unlike any I’ve seen before and made a dramatic increase in the productivity level. No matter how tense a meeting, Haider made sure everyone left with a smile. As a team member or a leader, Haider earns my highest recommendation.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQFEzcM_fb3Krg/profile-framedphoto-shrink_100_100/B4DZ2sDn4gJgAk-/0/1776708124473?e=1784505600&v=beta&t=vvoOC6TQVMuvVIpqmvRR0wXzHVtUtEsTa2G1FpD6NFE",
+    "linkedinUrl": "https://www.linkedin.com/in/rabee-tasneem-b52b4b12a/"
+  },
+  {
+    "name": "Asad Jamil",
+    "title": "iOS | React Native | Flutter",
+    "relationship": "October 11, 2018, Asad worked with Haider Ali on the same team",
+    "recommendation": "A person with great dedication and responsibility, who takes the work to the next level by accomplishing tasks in a timely manner. Haider is highly skilled in JavaScript, UI/UX and Front-end development. Highly recommended professional.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQH_YyNyyoC2ZA/profile-displayphoto-shrink_100_100/B4DZWldRIYHAAY-/0/1742237672126?e=1785369600&v=beta&t=bIYgeLejP6QPWcSY4hRiFBQ-ekD0NGMS89NX3L4Y0Jg",
+    "linkedinUrl": "https://www.linkedin.com/in/asadjamil07/"
+  },
+  {
+    "name": "Muhammad  Wasif Ali",
+    "title": "Strategic technology partner for scalable growth.|  I Help US Businesses Build Revenue-Driven Software Platforms | SaaS | AI Integration | Mobile & Enterprise Systems | UX/UI Designs",
+    "relationship": "October 11, 2018, Muhammad  Wasif managed Haider Ali directly",
+    "recommendation": "It is with great pleasure that I write this recommendation for the truly exceptional Haider Ali. It is rare to meet a UX/UI designer with as much skillful and awareness of design art as Haider Ali. His resilience, positivity, and humor are especially astounding given the challenges he has overcome in his professional life. Had work for me and I'm too much satisfied from him. I proud as he had worked for our company.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFbN7KnuC0k_Q/profile-displayphoto-scale_100_100/B4DZ6MdAJlKEAY-/0/1780472877160?e=1785369600&v=beta&t=55YgBWZYCAVfxRtc0D6gSJSi15PDOylCLfX9xI9_L0s",
+    "linkedinUrl": "https://www.linkedin.com/in/muhammadwasifali/"
+  },
+  {
+    "name": "Naseer Ullah",
+    "title": "Delivery Manager | Tech Lead | AI-assisted Development | Microservices | Java | Spring Boot | JPA | Restful Web Services | Camunda | TDD | Angular",
+    "relationship": null,
+    "recommendation": "Haider is an enthusiastic and passionate personnel, the professional in the Web Development and the related areas having continuous effort to be the best in his professional doings. He will definitely be a great resource for any company.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQEGbjjq553DqA/profile-displayphoto-scale_100_100/B4DZwOWx9JIgAg-/0/1769767379322?e=1785369600&v=beta&t=FM8kgKApYtk6fjEUq-tNB9F0UXBjDzGzHmeQ04k-8bQ",
+    "linkedinUrl": "https://www.linkedin.com/in/naseer-ullah/"
+  },
+  {
+    "name": "Awais Shahid",
+    "title": "Emerging Tech | AI | GTM",
+    "relationship": "October 11, 2018, Awais worked with Haider Ali but on different teams",
+    "recommendation": "I have worked with Haider in Constellation Inc. He is a master of his own art and have in-depth knowledge of his field work. He is also a good lad to sit with and I enjoy his company very much. He is a very good communicator and I would recommend him to anyone who is looking for a dedicated and hardworking yet a fun loving individual.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFfhYsUUhH1Yg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1693494378343?e=1785369600&v=beta&t=_r-w4JO632HyEcZW2triZDd2V3oXpWqDKr26GwZ5LeA",
+    "linkedinUrl": "https://www.linkedin.com/in/awais-shahid-87350a154/"
+  },
+  {
+    "name": "Aiman Farrukh",
+    "title": "Junior Consultant Data Analytics at Systems Limited",
+    "relationship": null,
+    "recommendation": "I know Haider as a talented and motivated individual who works with his full potential to achieve his goals.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQF9mrvne15OPg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1613845687245?e=1785369600&v=beta&t=aHGh1w6FTCNW2yZjlgIlLWjyiA2aCAfe_UoI0oV6WX4",
+    "linkedinUrl": "https://www.linkedin.com/in/aiman-farrukhfa/"
+  },
+  {
+    "name": "Dawood Bin Sadaqat",
+    "title": "Senior .NET Engineer | Azure & Microservices | Docker/Kubernetes | Open to Remote Roles",
+    "relationship": null,
+    "recommendation": "Highly recommend Haider Ali. Very talented, hard working and responsible guy.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQG-7kyDs0oFMw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1631776114260?e=1785369600&v=beta&t=_vfBJ_qsa2-Ursw4DCszZMFicE9Zeeqw2RR2gRpGghU",
+    "linkedinUrl": "https://www.linkedin.com/in/dawood-bin-sadaqat-a96630101/"
+  },
+  {
+    "name": "Yasir Qureshi",
+    "title": "M&A - Research Lead at Perseus Group, Constellation Software",
+    "relationship": "August 29, 2018, Yasir worked with Haider Ali but on different teams",
+    "recommendation": "I found him friendly, supportive, and helpful in all aspects related to work and life. Although, we are in different groups of the same company with varied nature of work, but he helped me a lot in making me feel comfortable after joining Constellation. His working style is very focused and personable. I've been fortunate enough to experience several friendly conversations where he has expounded on the intricacies of the work life balance, online industry, eCommerce, and much more. In a crisis situation, he's always calm.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQE2FwRHbywvag/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1581319743534?e=1785369600&v=beta&t=UADvT_oYa9D7OQd9Fzg_Ky-55xfAm47ukgU0pwnvCLw",
+    "linkedinUrl": "https://www.linkedin.com/in/yasirqureshi790/"
+  },
+  {
+    "name": "Junaid Rasheed",
+    "title": "Tech Leader in Full Stack Development | 9+ Years Building Enterprise-Grade Frontends | Vue, React, Tailwind, Rails | Strategic Thinker, Engineering Mentor",
+    "relationship": null,
+    "recommendation": "Worked with Haider on multiple academic projects and he delivered much more than the expectations. Great conversational skills, excellent creative skills and exceptional command on tools and technologies. Highly recommended.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGo-HIUpAF3_A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1698937457552?e=1785369600&v=beta&t=IW6U416KSKvqIxLMQb2XCJrrAgtp4oBX6FoXmGJlSX8",
+    "linkedinUrl": "https://www.linkedin.com/in/junaid-rasheed-088382109/"
+  },
+  {
+    "name": "Shahzad, Muhammad",
+    "title": "Principal Software Engineer at Elastic",
+    "relationship": null,
+    "recommendation": "I have managed Haidar for about 1 year. He is good great attitude towards work, never giving up on solving a problem. During his time, he worked on complex WebApp, building forms, views, as well as connecting them to REST API's. He is passionate about front end technologies especially vanilla js. He learned Reactjs from scratch in his time, and got an exceptional command over it in a short period of time. Proving that he is a quick learner. He is hard working almost to a fault, i would recommend him for a developer positions in any challenging and exciting environment.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C5603AQGu3R2_IExppw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1557437532754?e=1785369600&v=beta&t=keupFl2BfSYvqZOod22LYyratf68HJcrw3DyOlqnUCI",
+    "linkedinUrl": "https://www.linkedin.com/in/shahzad31/"
+  },
+  {
+    "name": "Muhammad Faizan Rafiq",
+    "title": "Senior DevOps Consultant @ Amazon Web Services",
+    "relationship": null,
+    "recommendation": "Haider Ali was my classmate, He is truly passionate about his ideas and goals.Haider Ali always did his best effort to his objectives.He is having amazing UI/UX and excellent programming skills.Haider Ali is a dedicated person, He worked in PUCIT ACM Student chapter and participated in organizing all the national level events i-e SoftExpo at the campus.Haider Ali is a broad-minded, hardworking and productive.He is a quick learner and talented person.A highly recommended guy.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQE-MVae6WdiOA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1614610773165?e=1785369600&v=beta&t=xQj5tgHTL49D_SBoI0xNFTSPECnh_yw0nMKw102mRGA",
+    "linkedinUrl": "https://www.linkedin.com/in/muhammadfaizanrafiq-b1560710a/"
+  },
+  {
+    "name": "Anzar Ahmad",
+    "title": "PhD Scholar at Oxford Brookes University",
+    "relationship": "October 16, 2017, Anzar managed Haider Ali directly",
+    "recommendation": "A hardworking diligent and focused team member, Haider Ali was indeed an asset in my ACM and AIM-RL team. In AIM-RL Haider was registered as a project internee, and worked under the summer program of the lab. He participated in workshops, attended lab sessions and volunteered in seminar activities. During my Faculty Supervision of ACM Chapter I had always found him working, talking, discussing, seeking guidance and producing remarkable work results throughout his tenure. A kind heart, with genuine urge to support, Haider possess a sound technical and work profile. As almost all ACM events require a strong web presence for general and specialized audience, it is difficult to manage a comprehensive interface in such cases. I must say Haider had done a remarkable job with designing the best interaction experience for ACM Student Chapter. He along with his team developed many successful advertisement vehicles both for print and digital media. I wish me best of luck for all of this future endeavors.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C5603AQEhiNr3v4-hWw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516311728890?e=1785369600&v=beta&t=h7QuMedi5tiTVcbUfGr-x5iBa2e_AT8NY7eeIAZQRuw",
+    "linkedinUrl": "https://www.linkedin.com/in/anzar-ahmad-93026b7/"
+  },
+  {
+    "name": "Muhammad Badar Awais",
+    "title": "Lead Software Engineer at i2c Inc. | BI | FinTech | Data Engineering | Java | Talend | Pentaho |  ETL Developer | PostgreSQL | Greenplum",
+    "relationship": null,
+    "recommendation": "\"Unique\" is the word that comes to mind when I think of Haider. I have had the pleasure of working with him for PUCIT ACM Student chapter while studying at Punjab University.He is very productive , hardworking, broad-minded and forward thinking individual. Intelligent, ambitious, energetic,proactive perfectionist and not forget a mind blowing Artist.He is one of the most dedicated and passionate among all the people I have ever worked with.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C5103AQH6X1ceAodRag/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517460078495?e=1785369600&v=beta&t=aLFtsonN-mYuQ_Dn7AsLrb-wbbsL4ko0ps5ED6LLyAM",
+    "linkedinUrl": "https://www.linkedin.com/in/badarawais/"
+  },
+  {
+    "name": "Sabeer Darr",
+    "title": "Lead UI UX Designer @ Grant Assistant | G2 Award-winning UI UX Designs",
+    "relationship": "October 16, 2017, Sabeer managed Haider Ali directly",
+    "recommendation": "\"Quick Learning and Hard-worker\" that comes to my mind when I hear Haider Ali.  I had the pleasure to be his Team Lead at Devclones and collaborated on few projects in the span of 7 months. I was really impressed how he grabs the idea so quickly and turns it into final output. We'll love to work with him anytime again, totally earned my highest recommendation.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQEBqMVluDLzxw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1729502007157?e=1785369600&v=beta&t=kZdNQ3-Ng3aAUS3d2t58vynle8zu-iAKpAieEE4KCSE",
+    "linkedinUrl": "https://www.linkedin.com/in/sabeerdarr/"
+  },
+  {
+    "name": "Abdur-Rub Atta Shahid",
+    "title": "Founder @ Beyond AI Cloud | Engineering Partner for Founders Building AI Agents & Scalable Systems",
+    "relationship": null,
+    "recommendation": "I met Haider in PUCIT back in 2013.  He was one of the best person I have ever met in my university  I have had the privilege of working with Haider for 4 years. Haider and I were commissioned to work  at PUCIT-ACM Student Chapter initially and gained experience and promotions together. Through the several years that we spent together in a university environment, I have seen Haider grow – both as a computer professional and a human being. Haider is a successful risk-taker.  As a pragmatic leader and a realist, he can grasp ideas in a holistic manner and still pay attention to minor details. Haider is known as diligent and personable – two qualities that define him completely.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQEbEaeFmLtwjw/profile-displayphoto-scale_100_100/B4DZsjDvrgHwAc-/0/1765819744269?e=1785369600&v=beta&t=5vEk4h5rMdfUeSuSkfDJP9cWBm4BtyJ-hgFPg6TWKqw",
+    "linkedinUrl": "https://www.linkedin.com/in/abdurrubatta/"
+  },
+  {
+    "name": "ayesha riaz",
+    "title": "Software Tester at Ashtex Solutions, Lahore",
+    "relationship": null,
+    "recommendation": "Overall the journey of our 4 years study was good. I haven't no issue with you. I wasn't face any kind of trouble with you. :P meri recommendation yeh hai kay \"zara arram se bol liya kro taa kay aglay bnday ko asaani se smj aa jai\" :D",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C5603AQF1pJEMKPI6wQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517033116571?e=1785369600&v=beta&t=SwbrzFQeCyyqQ8-tgidNcXHoBlsGLpi0IKXCr7zMjKk",
+    "linkedinUrl": "https://www.linkedin.com/in/ayesha-riaz-56512a102/"
+  },
+  {
+    "name": "Umair Qayyum",
+    "title": "Senior Software Engineer | AWS Cloud Practitioner",
+    "relationship": "October 16, 2017, Umair worked with Haider Ali on the same team",
+    "recommendation": "I have worked with Haider for a long time and would love to work with him again if given the chance. A highly motivated and passion driven personal. He gives the task at hand his everything and makes sure he delivers the best at his end. One of the most hardworking and talented personalities I have had the privilege to work with.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQFA5M08TzFhpA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1587567094674?e=1785369600&v=beta&t=VjGIh1uy4jQ3j0TOTUoVgEddKfGl-wx_5iHwjuA45P0",
+    "linkedinUrl": "https://www.linkedin.com/in/umairqayyumk/"
+  },
+  {
+    "name": "Rehan Baber",
+    "title": "Chief Technology Officer | Helped 50+ businesses | Served 10 + Industries to innovate with AI Solutions |  Generative AI | Salesforce | Mobile & Web Development | DevOps | AWS",
+    "relationship": null,
+    "recommendation": "Haider is a very passionate and hardworking boy. During our time at Punjab Unversity,  He was excellent at studies. He was also an important part of the PUCIT ACM Student Chapter as a Graphic designer and lately as a Marketing Manager. He possesses excellent software development skills and always did smart development when he was my colleague at DEVCLONES. A highly recommended guy.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFD22MeJTIvKQ/profile-displayphoto-shrink_100_100/B4DZRzH1w3G4AU-/0/1737098224091?e=1785369600&v=beta&t=VoKzn8jMBLEjVI5MKk9M5B8xAfJ-W9uYDBR-1kZO7uE",
+    "linkedinUrl": "https://www.linkedin.com/in/rehanbaber/"
+  },
+  {
+    "name": "Hassan Ali",
+    "title": "Senior Software Engineer at Revolving Games, Inc.",
+    "relationship": null,
+    "recommendation": "Haider is very passionate and has great vision for his work. His focus keeps everything moving smoothly, he makes sure all the deadlines are met, and makes sure that whatever project he is working on meets the highest standards.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4E35AQFt-bWhzrYjrA/profile-framedphoto-shrink_100_100/B4EZgX7mRZGUAs-/0/1752748156334?e=1784505600&v=beta&t=0QE3AWEA3GkR8EL9lveS-IpEdG2us6X50l_gfb9L4uk",
+    "linkedinUrl": "https://www.linkedin.com/in/hacanaly/"
+  },
+  {
+    "name": "Naila Saad Siddiqui",
+    "title": "Project Manager | Technical Writer | Delivering with Speed, Quality, and Clarity",
+    "relationship": null,
+    "recommendation": "Haider ali is a very proficcient and hard-working person. Being a senior he respected all the recommendations and acted very wisely on every decision. In his stay at university he had been a very good student as well as very responsible in all the assigned duties to him. I wish him best of luck for his future endeavours.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQHw4EMENT6gYg/profile-framedphoto-shrink_100_100/B4DZ4EQ8fzKgAk-/0/1778188011732?e=1784505600&v=beta&t=VzWzPPxGDGQzh0lfhxJtozFzEKnxrxeozQRK9E5ATy0",
+    "linkedinUrl": "https://www.linkedin.com/in/naila-saad-siddiqui-5128a939/"
+  },
+  {
+    "name": "Syed Muhammad Daniyal",
+    "title": "Salesforce Developer/Administrator/Consultant | 4x Certified",
+    "relationship": null,
+    "recommendation": "Well throughout the University life, I never saw a more dedicated person than this man. Always ready to get things done, and as one of the Executive members of the ACM Student Chapter was always looking to achieve more and more. What started as a simple acquaintance, I came to know Haider better as a great graphic designer and top notch leader. Not only a hardworker but a smart worker...",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQEd8lbwMDKjZA/profile-displayphoto-scale_100_100/B4DZnolIkJKQAc-/0/1760543674996?e=1785369600&v=beta&t=NuXkhHDdYyvwC1w1kwfGLPuYnTuug-yMQ3qv_hbWgaQ",
+    "linkedinUrl": "https://www.linkedin.com/in/syed-muhammad-daniyal-572571103/"
+  },
+  {
+    "name": "Muhammad Mutaher Raza",
+    "title": "Senior Software Engineer | ASP.NET | Middleware & Integration",
+    "relationship": null,
+    "recommendation": "Haider Ali is a smart, talented and hardworking lad. While studying at Punjab University, he was very dedicated towards his studies. I have had an experience of managing him directly while working voluntarily for PUCIT ACM Student Chapter and found him very focused and determined to complete every task he was assigned. He worked his way up from being a Graphic Designer and earned an executive post (Marketing Manager) at PUCIT ACM Student Chapter. With a great sense of design and exceptional skill set of software development Haider Ali is a full package.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQHuYfHWvrtkAQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517226682739?e=1785369600&v=beta&t=c8w_8WH_y9WC1aPeO2Hi0yRFuSexmUZa9dx_iOlstVk",
+    "linkedinUrl": "https://www.linkedin.com/in/mutaherraza/"
+  }
+]
