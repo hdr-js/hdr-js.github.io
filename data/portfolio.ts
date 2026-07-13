@@ -175,9 +175,9 @@ export const about = {
   location: "Berlin, Germany",
   heading: "Software engineer with an eye for design.",
   lead:
-    "I'm a Software Engineer, Front-end Developer and UX enthusiast with a decade of professional experience designing and developing high-end web applications with TypeScript, React, React Native, GraphQL, Redux and Node.",
+    "I'm a software engineer with a decade of experience helping teams deliver reliable, high-performing products.",
   body:
-    "I've shipped for mobility, education, coaching, warehousing, sales, auditing and healthcare - from a 200+ member engineering team to lone-engineer projects. My eye for UI comes from a lifelong habit of pencil sketching and digital illustration, which I also pursue as a freelance UI/UX designer.",
+    "I support teams with practical consultation, performance improvements, and structured delivery across mobility, education, coaching, warehousing, sales, auditing and healthcare.",
   education: { degree: "B.Sc. Computer Science", detail: "PUCIT, Lahore · 2013–2017" },
   honors: { title: "Speaker — Microsoft Insider Dev Tour", detail: "2019" },
 };
