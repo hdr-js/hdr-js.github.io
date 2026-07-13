@@ -54,6 +54,49 @@ const Recommendations: React.FC<Props> = ({ active }) => {
 
   const go = (n: number) => setI((prev) => (n + items.length) % items.length);
 
+  const renderAuthor = (item: Recommendation) => (
+    <div className={styles.author}>
+      <span className={styles.avatar}>
+        {item.imageUrl ? (
+          <img
+            src={item.imageUrl}
+            alt=""
+            loading="lazy"
+            onError={(event) => {
+              event.currentTarget.style.display = "none";
+            }}
+          />
+        ) : null}
+        <span>{item.name?.[0] === "[" ? "?" : item.name?.[0]}</span>
+      </span>
+      <span className={styles.authorText}>
+        {item.profileUrl ? (
+          <a className={styles.name} href={item.profileUrl} target="_blank" rel="noopener noreferrer">
+            {item.name}
+          </a>
+        ) : (
+          <span className={styles.name}>{item.name}</span>
+        )}
+        <span className={styles.role}>{item.company ? `${item.title}, ${item.company}` : item.title}</span>
+      </span>
+    </div>
+  );
+
+  const renderControls = () => (
+    <div className={styles.controls}>
+      <button type="button" className={styles.navBtn} aria-label="Previous" onClick={() => go(i - 1)}>
+        ‹
+      </button>
+      <button type="button" className={styles.navBtn} aria-label="Next" onClick={() => go(i + 1)}>
+        ›
+      </button>
+      <span className={styles.count}>
+        {pad(i + 1)} / {pad(items.length)}
+      </span>
+      <span className={styles.source}>From LinkedIn</span>
+    </div>
+  );
+
   const onTouchStart = (event: React.TouchEvent) => {
     const touch = event.touches[0];
     touchStart.current = { x: touch.clientX, y: touch.clientY };
@@ -143,50 +186,16 @@ const Recommendations: React.FC<Props> = ({ active }) => {
                   </button>
                 ) : null}
                 {r.relationship ? <p className={styles.relationship}>{r.relationship}</p> : null}
+                <div className={styles.desktopAuthor}>{renderAuthor(r)}</div>
               </article>
             ))}
           </div>
         </div>
+        <div className={styles.desktopControls}>{renderControls()}</div>
 
-        <div className={styles.bottomDock}>
-          <div className={styles.author}>
-            <span className={styles.avatar}>
-              {currentItem.imageUrl ? (
-                <img
-                  src={currentItem.imageUrl}
-                  alt=""
-                  loading="lazy"
-                  onError={(event) => {
-                    event.currentTarget.style.display = "none";
-                  }}
-                />
-              ) : null}
-              <span>{currentItem.name?.[0] === "[" ? "?" : currentItem.name?.[0]}</span>
-            </span>
-            <span className={styles.authorText}>
-              {currentItem.profileUrl ? (
-                <a className={styles.name} href={currentItem.profileUrl} target="_blank" rel="noopener noreferrer">
-                  {currentItem.name}
-                </a>
-              ) : (
-                <span className={styles.name}>{currentItem.name}</span>
-              )}
-              <span className={styles.role}>{currentItem.company ? `${currentItem.title}, ${currentItem.company}` : currentItem.title}</span>
-            </span>
-          </div>
-
-          <div className={styles.controls}>
-            <button type="button" className={styles.navBtn} aria-label="Previous" onClick={() => go(i - 1)}>
-              ‹
-            </button>
-            <button type="button" className={styles.navBtn} aria-label="Next" onClick={() => go(i + 1)}>
-              ›
-            </button>
-            <span className={styles.count}>
-              {pad(i + 1)} / {pad(items.length)}
-            </span>
-            <span className={styles.source}>From LinkedIn</span>
-          </div>
+        <div className={styles.mobileDock}>
+          {renderAuthor(currentItem)}
+          {renderControls()}
         </div>
       </div>
 
