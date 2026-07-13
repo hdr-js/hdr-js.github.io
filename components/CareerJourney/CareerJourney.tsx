@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { experience } from "../../data/portfolio";
 import styles from "./CareerJourney.module.scss";
 
@@ -8,65 +8,65 @@ const ArrowUpRight = () => (
   </svg>
 );
 
-const CareerJourney: React.FC = () => {
-  const [sel, setSel] = useState(0);
-  const job = experience[sel];
-
-  return (
-    <div className={styles.wrap}>
-      <div className={styles.eyebrow} data-reveal>
-        <span className={styles.dot} />
-        <span>02 — Career Journey</span>
-      </div>
-
-      <div className={styles.grid} data-reveal>
-        <div className={styles.list}>
-          {experience.map((e, i) => (
-            <button
-              key={e.company}
-              type="button"
-              className={styles.tab}
-              data-active={i === sel}
-              onClick={() => setSel(i)}
-            >
-              <span className={styles.tabName}>{e.company}</span>
-              <span className={styles.tabDates}>{e.shortDates}</span>
-            </button>
-          ))}
-        </div>
-
-        <div className={styles.detail}>
-          <h3 className={styles.role}>{job.role}</h3>
-          <div className={styles.meta}>
-            <span>{job.dates}</span>
-            <span>·</span>
-            <span>{job.location}</span>
-          </div>
-          <a
-            className={styles.product}
-            href={job.url}
-            target={job.url === "#" ? undefined : "_blank"}
-            rel="noopener noreferrer"
-          >
-            {job.product}
-            <ArrowUpRight />
-          </a>
-          <div className={styles.stack}>
-            {job.stack.map((t) => (
-              <span key={t} className={styles.chip}>
-                {t}
-              </span>
-            ))}
-          </div>
-          <ul className={styles.bullets}>
-            {job.bullets.map((b, i) => (
-              <li key={i}>{b}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
+const CareerJourney: React.FC = () => (
+  <div className={styles.wrap}>
+    <div className={styles.eyebrow} data-reveal>
+      <span className={styles.dot} />
+      <span>02 — Experience</span>
     </div>
-  );
-};
+
+    <div className={styles.cards} data-reveal>
+      {experience.map((job) => (
+        <article key={`${job.company}-${job.shortDates}`} className={styles.card}>
+          <div className={styles.cardTop}>
+            <div>
+              <p className={styles.company}>{job.company}</p>
+              <h3 className={styles.role}>{job.role}</h3>
+            </div>
+            <span className={styles.dates}>{job.shortDates}</span>
+          </div>
+
+          <dl className={styles.meta}>
+            <div>
+              <dt>Type</dt>
+              <dd>{job.employmentType}</dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>
+                {job.location} · {job.workMode}
+              </dd>
+            </div>
+          </dl>
+
+          <div className={styles.section}>
+            <div className={styles.label}>Tech stack</div>
+            <div className={styles.chips}>
+              {job.stack.map((t) => (
+                <span key={t} className={styles.chip}>
+                  {t}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {job.links.length > 0 && (
+            <div className={styles.section}>
+              <div className={styles.label}>Links</div>
+              <div className={styles.chips}>
+                {job.links.map((link) => (
+                  <a key={link.href} className={styles.linkChip} href={link.href} target="_blank" rel="noopener noreferrer">
+                    {link.label}
+                    <ArrowUpRight />
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </article>
+      ))}
+    </div>
+  </div>
+);
 
 export default CareerJourney;
