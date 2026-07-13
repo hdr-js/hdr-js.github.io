@@ -14,10 +14,10 @@ export type Experience = {
   role: string;
   dates: string;
   location: string;
-  workMode: string;
-  employmentType: string;
+  product: string;
+  url: string;
   stack: string[];
-  links: { label: string; href: string }[];
+  bullets: string[];
 };
 
 export const experience: Experience[] = [
@@ -27,10 +27,13 @@ export const experience: Experience[] = [
     role: "Senior Software Engineer",
     dates: "Nov 2024 — Present",
     location: "Berlin, Germany",
-    workMode: "Hybrid",
-    employmentType: "Full-time",
+    product: "doctari",
+    url: "https://www.doctari.de",
     stack: ["NextJS", "AWS", "React", "TypeScript", "webpack", "vite", "design system"],
-    links: [{ label: "Website", href: "https://www.doctari.de" }],
+    bullets: [
+      "Refactored the negotiation lifecycle overview in the app for 3 different user access levels.",
+      "Drafted C4 diagrams for the architecture of the product service-desk with custom integration of Confluence and JSM.",
+    ],
   },
   {
     company: "Burst Fitness",
@@ -38,10 +41,15 @@ export const experience: Experience[] = [
     role: "Senior Fullstack Engineer",
     dates: "Sept 2023 — Jan 2025",
     location: "Utah, United States",
-    workMode: "Remote",
-    employmentType: "Part-time",
+    product: "Burst Fitness App",
+    url: "#",
     stack: ["React", "TypeScript", "monorepo", "webpack", "MUI", "tailwind", "Stripe"],
-    links: [],
+    bullets: [
+      "Implemented and maintained the whole software from scratch, including stack for 3 different applications across devices.",
+      "Designed the rock-solid architecture for the whole app flow and matured it to cover incoming features.",
+      "Introduced asset management with S3 to store and ship video to the apps with authenticated presigned URLs.",
+      "Maintained Crashlytics stats at 99% for both apps on Android and iOS.",
+    ],
   },
   {
     company: "Sharpist GmbH",
@@ -49,10 +57,14 @@ export const experience: Experience[] = [
     role: "Senior Front-end Engineer",
     dates: "May 2022 — Aug 2023",
     location: "Berlin, Germany",
-    workMode: "Hybrid",
-    employmentType: "Full-time",
+    product: "Sharpist",
+    url: "https://www.sharpist.com",
     stack: ["React", "TypeScript", "nx monorepo", "webpack", "AntD", "Storybooks"],
-    links: [{ label: "Website", href: "https://www.sharpist.com" }],
+    bullets: [
+      "Restructured the mono repo setup for 6 projects including product, components, storybooks, and tests alongside.",
+      "Took charge of a new project visualizing 10+ business KPIs transparently to customers for better business strategy.",
+      "Implemented unit tests for the legacy code to maintain a coverage of 85% and above.",
+    ],
   },
   {
     company: "VentureDive",
@@ -60,10 +72,15 @@ export const experience: Experience[] = [
     role: "Sr. Software Engineer",
     dates: "Jan 2019 — Dec 2021",
     location: "Lahore, Pakistan",
-    workMode: "On-site",
-    employmentType: "Full-time",
+    product: "Munchies",
+    url: "#",
     stack: ["ReactJS", "Redux", "thunk", "Firebase", "Google Maps"],
-    links: [],
+    bullets: [
+      "Enhanced reusability, implementing schema-based data-grids with 34 different renderers for the lists in CRUDs.",
+      "Contributed to build-optimization tasks, shrinking initial load time to under 1 second.",
+      "Created an auth-based routing scheme for the React app using role-based access to maintain security and fallback.",
+      "Led a team of 3, polishing my mentorship skills while maintaining a healthy engineering culture.",
+    ],
   },
   {
     company: "Markinson",
@@ -71,10 +88,13 @@ export const experience: Experience[] = [
     role: "Software Developer",
     dates: "Mar 2017 — Dec 2018",
     location: "Melbourne, Australia",
-    workMode: "Remote",
-    employmentType: "Full-time",
+    product: "Momentum Pro V4",
+    url: "#",
     stack: ["React", "Redux", "Material UI", "Saga Middleware"],
-    links: [],
+    bullets: [
+      "Implemented pluggable and extendible UI components with a specific style guide, narrowing the coding effort by 50%.",
+      "Shaved off 50% of development effort on boilerplate, introducing action creators and ducks with react-redux.",
+    ],
   },
 ];
 
