@@ -35,8 +35,6 @@ const realRecommendations: Recommendation[] = (linkedinRecommendations as Linked
   }))
   .filter((item) => item.quote && item.name);
 
-const LONG_RECOMMENDATION_LENGTH = 560;
-
 /**
  * Recommendations carousel sourced from exported LinkedIn recommendation data.
  * Left/Right arrow keys cycle while this section is active.
@@ -46,15 +44,54 @@ const Recommendations: React.FC<Props> = ({ active }) => {
   const [i, setI] = useState(0);
   const [isMounted, setIsMounted] = useState(false);
   const [modalIndex, setModalIndex] = useState<number | null>(null);
+  const [overflowingQuotes, setOverflowingQuotes] = useState<boolean[]>([]);
+  const quoteRefs = useRef<Array<HTMLParagraphElement | null>>([]);
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
   const activeRef = useRef(active);
   activeRef.current = active;
+  const currentItem = items[i];
   const modalItem = modalIndex === null ? null : items[modalIndex];
 
   const go = (n: number) => setI((prev) => (n + items.length) % items.length);
 
+  const onTouchStart = (event: React.TouchEvent) => {
+    const touch = event.touches[0];
+    touchStart.current = { x: touch.clientX, y: touch.clientY };
+  };
+
+  const onTouchEnd = (event: React.TouchEvent) => {
+    if (!touchStart.current) return;
+    const touch = event.changedTouches[0];
+    const dx = touch.clientX - touchStart.current.x;
+    const dy = touch.clientY - touchStart.current.y;
+    touchStart.current = null;
+
+    if (Math.abs(dx) < 45 || Math.abs(dx) < Math.abs(dy) * 1.2) return;
+    go(i + (dx < 0 ? 1 : -1));
+  };
+
   useEffect(() => {
     setIsMounted(true);
   }, []);
+
+  useEffect(() => {
+    const measure = () => {
+      setOverflowingQuotes(
+        items.map((_, idx) => {
+          const quote = quoteRefs.current[idx];
+          return quote ? quote.scrollHeight > quote.clientHeight + 1 : false;
+        })
+      );
+    };
+
+    measure();
+    const timeout = window.setTimeout(measure, 80);
+    window.addEventListener("resize", measure);
+    return () => {
+      window.clearTimeout(timeout);
+      window.removeEventListener("resize", measure);
+    };
+  }, [i, items]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -85,67 +122,71 @@ const Recommendations: React.FC<Props> = ({ active }) => {
         <span>04 — LinkedIn recommendations:</span>
       </div>
 
-      <div data-reveal>
+      <div className={styles.body} data-reveal>
         <div className={styles.quoteMark}>&ldquo;</div>
-        <div className={styles.view}>
+        <div className={styles.view} onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
           <div className={styles.track} style={{ transform: `translateX(-${i * 100}%)` }}>
             {items.map((r, idx) => (
-              (() => {
-                const isLong = r.quote.length > LONG_RECOMMENDATION_LENGTH;
-                return (
-                  <article className={styles.slide} key={`${r.name}-${idx}`}>
-                    <p className={styles.quote} data-long={isLong}>
-                      {r.quote}
-                    </p>
-                    {isLong ? (
-                      <button type="button" className={styles.readMore} onClick={() => setModalIndex(idx)}>
-                        Read more
-                      </button>
-                    ) : null}
-                    {r.relationship ? <p className={styles.relationship}>{r.relationship}</p> : null}
-                    <div className={styles.author}>
-                      <span className={styles.avatar}>
-                        {r.imageUrl ? (
-                          <img
-                            src={r.imageUrl}
-                            alt=""
-                            loading="lazy"
-                            onError={(event) => {
-                              event.currentTarget.style.display = "none";
-                            }}
-                          />
-                        ) : null}
-                        <span>{r.name?.[0] === "[" ? "?" : r.name?.[0]}</span>
-                      </span>
-                      <span className={styles.authorText}>
-                        {r.profileUrl ? (
-                          <a className={styles.name} href={r.profileUrl} target="_blank" rel="noopener noreferrer">
-                            {r.name}
-                          </a>
-                        ) : (
-                          <span className={styles.name}>{r.name}</span>
-                        )}
-                        <span className={styles.role}>{r.company ? `${r.title}, ${r.company}` : r.title}</span>
-                      </span>
-                    </div>
-                  </article>
-                );
-              })()
+              <article className={styles.slide} key={`${r.name}-${idx}`}>
+                <p
+                  ref={(element) => {
+                    quoteRefs.current[idx] = element;
+                  }}
+                  className={styles.quote}
+                  data-overflow={overflowingQuotes[idx]}
+                >
+                  {r.quote}
+                </p>
+                {overflowingQuotes[idx] ? (
+                  <button type="button" className={styles.readMore} onClick={() => setModalIndex(idx)}>
+                    Read more
+                  </button>
+                ) : null}
+                {r.relationship ? <p className={styles.relationship}>{r.relationship}</p> : null}
+              </article>
             ))}
           </div>
         </div>
 
-        <div className={styles.controls}>
-          <button type="button" className={styles.navBtn} aria-label="Previous" onClick={() => go(i - 1)}>
-            ‹
-          </button>
-          <button type="button" className={styles.navBtn} aria-label="Next" onClick={() => go(i + 1)}>
-            ›
-          </button>
-          <span className={styles.count}>
-            {pad(i + 1)} / {pad(items.length)}
-          </span>
-          <span className={styles.source}>From LinkedIn</span>
+        <div className={styles.bottomDock}>
+          <div className={styles.author}>
+            <span className={styles.avatar}>
+              {currentItem.imageUrl ? (
+                <img
+                  src={currentItem.imageUrl}
+                  alt=""
+                  loading="lazy"
+                  onError={(event) => {
+                    event.currentTarget.style.display = "none";
+                  }}
+                />
+              ) : null}
+              <span>{currentItem.name?.[0] === "[" ? "?" : currentItem.name?.[0]}</span>
+            </span>
+            <span className={styles.authorText}>
+              {currentItem.profileUrl ? (
+                <a className={styles.name} href={currentItem.profileUrl} target="_blank" rel="noopener noreferrer">
+                  {currentItem.name}
+                </a>
+              ) : (
+                <span className={styles.name}>{currentItem.name}</span>
+              )}
+              <span className={styles.role}>{currentItem.company ? `${currentItem.title}, ${currentItem.company}` : currentItem.title}</span>
+            </span>
+          </div>
+
+          <div className={styles.controls}>
+            <button type="button" className={styles.navBtn} aria-label="Previous" onClick={() => go(i - 1)}>
+              ‹
+            </button>
+            <button type="button" className={styles.navBtn} aria-label="Next" onClick={() => go(i + 1)}>
+              ›
+            </button>
+            <span className={styles.count}>
+              {pad(i + 1)} / {pad(items.length)}
+            </span>
+            <span className={styles.source}>From LinkedIn</span>
+          </div>
         </div>
       </div>
 
