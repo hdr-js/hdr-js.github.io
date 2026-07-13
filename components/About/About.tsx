@@ -2,9 +2,13 @@ import React from "react";
 import { about } from "../../data/portfolio";
 import styles from "./About.module.scss";
 
-const About: React.FC = () => (
+interface Props {
+  active?: boolean;
+}
+
+const About: React.FC<Props> = ({ active = false }) => (
   <div className={styles.wrap}>
-    <div className={styles.eyebrow} data-reveal>
+    <div className={styles.eyebrow} data-active={active} data-reveal>
       <span className={styles.dot} />
       <span>01 — About</span>
     </div>

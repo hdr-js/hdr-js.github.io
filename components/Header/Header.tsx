@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import styles from "./Header.module.scss";
 
@@ -15,10 +15,21 @@ import { useTheme } from "../../contexts/ThemeContext";
  */
 const Header: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
+  const [isHeroActive, setIsHeroActive] = useState(true);
+
+  useEffect(() => {
+    const onSectionChange = (event: Event) => {
+      const { index } = (event as CustomEvent<{ index: number }>).detail;
+      setIsHeroActive(index === 0);
+    };
+
+    window.addEventListener("portfolio-section-change", onSectionChange);
+    return () => window.removeEventListener("portfolio-section-change", onSectionChange);
+  }, []);
 
   return (
     <header className={styles.header}>
-      <div className={styles.status}>
+      <div className={styles.status} data-visible={isHeroActive} aria-hidden={!isHeroActive}>
         <div className={styles.indicator}></div>
         <span className={styles.statusText}>Available to work!</span>
       </div>
@@ -46,7 +57,10 @@ const Header: React.FC = () => {
           <StackOverflowIcon className={styles.icon} />
         </Link>
         <a href="mailto:hello@hdrjs.de" className={styles.email}>
-          hello@hdrjs.de
+          <span className={styles.emailFull}>hello@hdrjs.de</span>
+          <span className={styles.emailShort} aria-hidden="true">
+            @
+          </span>
         </a>
       </nav>
     </header>

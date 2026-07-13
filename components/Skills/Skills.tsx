@@ -2,9 +2,13 @@ import React from "react";
 import { skills } from "../../data/portfolio";
 import styles from "./Skills.module.scss";
 
-const Skills: React.FC = () => (
+interface Props {
+  active?: boolean;
+}
+
+const Skills: React.FC<Props> = ({ active = false }) => (
   <div className={styles.wrap}>
-    <div className={styles.eyebrow} data-reveal>
+    <div className={styles.eyebrow} data-active={active} data-reveal>
       <span className={styles.dot} />
       <span>03 — Skills &amp; Expertise</span>
     </div>

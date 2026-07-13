@@ -169,7 +169,7 @@ const Recommendations: React.FC<Props> = ({ active }) => {
 
   return (
     <div className={styles.wrap}>
-      <div className={styles.eyebrow} data-reveal>
+      <div className={styles.eyebrow} data-active={active} data-reveal>
         <span className={styles.dot} />
         <span>04 — LinkedIn recommendations:</span>
       </div>

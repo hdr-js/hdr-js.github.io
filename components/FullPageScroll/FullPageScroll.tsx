@@ -23,6 +23,10 @@ const FullPageScroll: React.FC<Props> = ({ sections }) => {
   const locked = useRef(false);
   const n = sections.length;
 
+  useEffect(() => {
+    window.dispatchEvent(new CustomEvent("portfolio-section-change", { detail: { index: idx } }));
+  }, [idx]);
+
   const go = (i: number) => {
     const clamped = Math.max(0, Math.min(n - 1, i));
     if (clamped === idxRef.current || locked.current) return;

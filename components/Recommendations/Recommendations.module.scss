@@ -34,7 +34,38 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: $color-primary-green;
+    background: $color-section-recommendations;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 1rem;
+      height: 1rem;
+      border: 2px solid $color-section-recommendations;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      animation: ripple 2.5s infinite ease-out;
+      opacity: 0.5;
+      display: none;
+    }
+  }
+
+  &[data-active="true"] .dot::after {
+    display: block;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0;
   }
 }
 
@@ -111,8 +142,8 @@
   font-weight: $font-weight-bold;
 
   &:hover {
-    color: $color-primary-green;
-    border-bottom-color: $color-primary-green;
+    color: $color-section-recommendations;
+    border-bottom-color: $color-section-recommendations;
   }
 }
 
@@ -419,8 +450,8 @@
   justify-content: center;
 
   &:hover {
-    border-color: $color-primary-green;
-    color: $color-primary-green;
+    border-color: $color-section-recommendations;
+    color: $color-section-recommendations;
   }
 }
 
@@ -529,8 +560,8 @@
   gap: 0.4rem;
 
   &:hover {
-    color: $color-primary-green;
-    border-color: $color-primary-green;
+    color: $color-section-recommendations;
+    border-color: $color-section-recommendations;
   }
 }
 

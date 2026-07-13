@@ -8,13 +8,17 @@ const ArrowUpRight = () => (
   </svg>
 );
 
-const CareerJourney: React.FC = () => {
+interface Props {
+  active?: boolean;
+}
+
+const CareerJourney: React.FC<Props> = ({ active = false }) => {
   const [sel, setSel] = useState(0);
   const job = experience[sel];
 
   return (
     <div className={styles.wrap}>
-      <div className={styles.eyebrow} data-reveal>
+      <div className={styles.eyebrow} data-active={active} data-reveal>
         <span className={styles.dot} />
         <span>02 — Career Journey</span>
       </div>

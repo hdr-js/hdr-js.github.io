@@ -14,10 +14,14 @@ const links = [
   { label: "Stack Overflow", href: "https://stackoverflow.com/users/8404234/haider-ali-anjum" },
 ];
 
-const Contact: React.FC = () => (
+interface Props {
+  active?: boolean;
+}
+
+const Contact: React.FC<Props> = ({ active = false }) => (
   <div className={styles.wrap}>
     <div className={styles.inner}>
-      <div className={styles.eyebrow} data-reveal>
+      <div className={styles.eyebrow} data-active={active} data-reveal>
         <span className={styles.dot} />
         <span>05 — Contact</span>
       </div>
