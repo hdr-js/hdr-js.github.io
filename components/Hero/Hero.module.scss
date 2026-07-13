@@ -16,10 +16,20 @@
   gap: 2.4rem;
 }
 
-.logo {
+.logoButton {
   width: min(72vw, 860px);
-  aspect-ratio: 1440 / 1024;
+  max-width: 100%;
   max-height: 58vh;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: theme-var(color-text);
+  cursor: pointer;
+}
+
+.logo {
+  width: 100%;
+  aspect-ratio: 1440 / 1024;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,8 +99,9 @@
     gap: 1.65rem;
   }
 
+  .logoButton,
   .logo {
-    width: 120vw;
+    width: min(94vw, 620px);
     max-height: 46vh;
   }
 

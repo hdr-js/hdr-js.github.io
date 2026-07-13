@@ -14,7 +14,6 @@
   display: flex;
   align-items: center;
   font-size: variables.$font-size-md;
-
   line-height: 1;
 
   .indicator {
@@ -66,17 +65,14 @@
   }
 }
 
-.downloadButton {
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-
 .icon {
   width: 1.25rem;
   height: 1.25rem;
   cursor: pointer;
+
+  path {
+    stroke: mixins.theme-var(color-text);
+  }
 }
 
 .email {
@@ -103,10 +99,6 @@
 
   .nav {
     gap: variables.$spacing-md;
-  }
-
-  .downloadButton {
-    display: none;
   }
 
   .icon {

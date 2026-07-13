@@ -8,9 +8,10 @@ import styles from "./Hero.module.scss";
  */
 const Hero: React.FC = () => {
   const container = useRef<HTMLDivElement>(null);
+  const animation = useRef<any>(null);
 
   useEffect(() => {
-    let anim: { destroy: () => void } | undefined;
+    let anim: any;
     let mounted = true;
     import("lottie-web").then((mod) => {
       if (!mounted || !container.current) return;
@@ -21,17 +22,25 @@ const Hero: React.FC = () => {
         autoplay: true,
         path: "/hdr-logo.json",
       });
+      animation.current = anim;
     });
     return () => {
       mounted = false;
+      animation.current = null;
       if (anim) anim.destroy();
     };
   }, []);
 
+  const replayLogo = () => {
+    animation.current?.goToAndPlay(0, true);
+  };
+
   return (
     <div className={styles.hero}>
       <div className={styles.center}>
-        <div className={styles.logo} ref={container} />
+        <button type="button" className={styles.logoButton} onClick={replayLogo} aria-label="Replay HDR animation">
+          <span className={styles.logo} ref={container} />
+        </button>
         <div className={styles.hint} data-reveal>
           <span className={styles.hintText}>Scroll to explore</span>
           <span className={styles.arrow} aria-hidden="true">

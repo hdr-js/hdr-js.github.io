@@ -166,32 +166,34 @@ const Recommendations: React.FC<Props> = ({ active }) => {
       </div>
 
       <div className={styles.body} data-reveal>
-        <div className={styles.quoteMark}>&ldquo;</div>
         <div className={styles.view} onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
           <div className={styles.track} style={{ transform: `translateX(-${i * 100}%)` }}>
             {items.map((r, idx) => (
               <article className={styles.slide} key={`${r.name}-${idx}`}>
-                <p
-                  ref={(element) => {
-                    quoteRefs.current[idx] = element;
-                  }}
-                  className={styles.quote}
-                  data-overflow={overflowingQuotes[idx]}
-                >
-                  {r.quote}
-                </p>
-                {overflowingQuotes[idx] ? (
-                  <button type="button" className={styles.readMore} onClick={() => setModalIndex(idx)}>
-                    Read more
-                  </button>
-                ) : null}
+                <div className={styles.quoteBlock}>
+                  <div className={styles.quoteMark}>&ldquo;</div>
+                  <p
+                    ref={(element) => {
+                      quoteRefs.current[idx] = element;
+                    }}
+                    className={styles.quote}
+                    data-overflow={overflowingQuotes[idx]}
+                  >
+                    {r.quote}
+                  </p>
+                  {overflowingQuotes[idx] ? (
+                    <button type="button" className={styles.readMore} onClick={() => setModalIndex(idx)}>
+                      Read more
+                    </button>
+                  ) : null}
+                </div>
                 {r.relationship ? <p className={styles.relationship}>{r.relationship}</p> : null}
                 <div className={styles.desktopAuthor}>{renderAuthor(r)}</div>
+                <div className={styles.desktopControls}>{renderControls()}</div>
               </article>
             ))}
           </div>
         </div>
-        <div className={styles.desktopControls}>{renderControls()}</div>
 
         <div className={styles.mobileDock}>
           {renderAuthor(currentItem)}
