@@ -24,7 +24,7 @@ export const experience: Experience[] = [
   {
     company: "Doctari GmbH",
     shortDates: "2024 — Present",
-    role: "Senior Software Engineer",
+    role: "Sr. Software Engineer",
     dates: "Nov 2024 — Present",
     location: "Berlin, Germany",
     product: "doctari",
@@ -38,7 +38,7 @@ export const experience: Experience[] = [
   {
     company: "Burst Fitness",
     shortDates: "2023 — 2025",
-    role: "Senior Fullstack Engineer",
+    role: "Sr. Fullstack Engineer",
     dates: "Sept 2023 — Jan 2025",
     location: "Utah, United States",
     product: "Burst Fitness App",
@@ -54,7 +54,7 @@ export const experience: Experience[] = [
   {
     company: "Sharpist GmbH",
     shortDates: "2022 — 2023",
-    role: "Senior Front-end Engineer",
+    role: "Sr. Front-end Engineer",
     dates: "May 2022 — Aug 2023",
     location: "Berlin, Germany",
     product: "Sharpist",
