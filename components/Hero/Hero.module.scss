@@ -96,13 +96,13 @@
 
 @include respond-below($breakpoint-sm) {
   .center {
-    gap: 1.65rem;
+    gap: 1.25rem;
   }
 
   .logoButton,
   .logo {
-    width: min(94vw, 620px);
-    max-height: 46vh;
+    width: min(86vw, 560px);
+    max-height: 40vh;
   }
 
   .hint {
@@ -123,6 +123,7 @@
     gap: 1rem;
     font-size: 0.64rem;
     letter-spacing: 0.24em;
+    padding-bottom: 0.85rem;
   }
 }
 

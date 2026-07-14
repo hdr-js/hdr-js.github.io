@@ -135,4 +135,9 @@ $short-panel-height: 760px;
     justify-content: flex-start;
     overflow-y: auto;
   }
+
+  .panel:first-child {
+    justify-content: center;
+    overflow: hidden;
+  }
 }
