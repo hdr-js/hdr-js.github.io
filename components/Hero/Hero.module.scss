@@ -3,12 +3,15 @@
 
 .hero {
   height: 100%;
+  min-height: 0;
+  container-type: size;
   display: flex;
   flex-direction: column;
 }
 
 .center {
   flex: 1;
+  min-height: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,9 +20,10 @@
 }
 
 .logoButton {
-  width: min(72vw, 860px);
+  // Reserve room for the scroll cue, gap, and titles inside the padded panel.
+  width: min(72vw, 860px, max(0px, calc((100cqh - 7rem) * 1.40625)));
   max-width: 100%;
-  max-height: 58vh;
+  flex-shrink: 0;
   padding: 0;
   border: 0;
   background: transparent;
@@ -75,6 +79,7 @@
 }
 
 .titles {
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,10 +104,8 @@
     gap: 1.65rem;
   }
 
-  .logoButton,
-  .logo {
-    width: min(94vw, 620px);
-    max-height: 46vh;
+  .logoButton {
+    width: min(94vw, 620px, max(0px, calc((100cqh - 6rem) * 1.40625)));
   }
 
   .hint {
