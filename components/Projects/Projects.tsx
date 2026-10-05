@@ -26,14 +26,24 @@ const Projects: React.FC<Props> = ({ active = false }) => (
           rel="noopener noreferrer"
           aria-label={`${project.title} — visit project (opens in a new tab)`}
         >
-          <iframe
-            className={styles.preview}
-            src={project.href}
-            title={`${project.title} preview`}
-            loading="lazy"
-            tabIndex={-1}
-            aria-hidden="true"
-          />
+          <div className={styles.preview} aria-hidden="true">
+            <div className={styles.previewHeader}>
+              <span className={styles.wordmark}>deutsch.</span>
+              <span className={styles.menu}>☰</span>
+            </div>
+            <div className={styles.previewBody}>
+              <span className={styles.kicker}>● Your word. Your starting point.</span>
+              <span className={styles.previewHeading}>What does<br />this word mean?</span>
+              <span className={styles.previewCopy}>Explore meanings, forms and grammar.</span>
+              <div className={styles.search}>
+                <span>⌕ &nbsp; e.g. getragen</span>
+                <span className={styles.searchButton}>Search →</span>
+              </div>
+              <div className={styles.words}>
+                <span>getragen</span><span>Häusern</span><span>ging</span><span>Band</span>
+              </div>
+            </div>
+          </div>
           <span className={styles.domain}>{project.domain}</span>
           <h3>{project.title}</h3>
           <span className={styles.link}>Visit project <span aria-hidden="true">↗</span></span>

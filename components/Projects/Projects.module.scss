@@ -43,8 +43,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1rem;
-  padding: 2rem;
+  gap: 0.75rem;
+  padding: 0.75rem;
   border: 1px solid theme-var(color-line);
   border-radius: 1rem;
   color: theme-var(color-text);
@@ -68,11 +68,92 @@
 
 .preview {
   width: 100%;
+  box-sizing: border-box;
   aspect-ratio: 4 / 3;
-  border: 0;
   border-radius: 0.5rem;
-  filter: grayscale(100%);
-  pointer-events: none;
+  background: #191919;
+  color: #f0f0ec;
+  font-family: Georgia, "Times New Roman", serif;
+  padding: 1rem;
+  overflow: hidden;
+  container-type: inline-size;
+}
+
+.previewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid #444;
+}
+
+.wordmark {
+  font-size: clamp(1rem, 8cqw, 1.8rem);
+  font-weight: bold;
+}
+
+.menu {
+  border: 1px solid #444;
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.75rem;
+}
+
+.previewBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding-top: 1rem;
+}
+
+.kicker {
+  font-size: clamp(0.4rem, 2.5cqw, 0.65rem);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #bdbdb8;
+}
+
+.previewHeading {
+  font-size: clamp(1rem, 9cqw, 2.3rem);
+  font-weight: bold;
+  line-height: 1.05;
+}
+
+.previewCopy {
+  font-size: clamp(0.45rem, 3cqw, 0.75rem);
+  color: #bdbdb8;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.25rem;
+  background: #262626;
+  border: 1px solid #444;
+  border-radius: 0.4rem;
+  padding: 0.35rem;
+  font-size: clamp(0.45rem, 3cqw, 0.7rem);
+}
+
+.searchButton {
+  background: #f0f0ec;
+  color: #191919;
+  border-radius: 0.2rem;
+  padding: 0.25rem;
+  white-space: nowrap;
+}
+
+.words {
+  display: flex;
+  gap: 0.25rem;
+  font-size: clamp(0.4rem, 2.6cqw, 0.65rem);
+
+  span {
+    border: 1px solid #444;
+    border-radius: 0.2rem;
+    padding: 0.15rem 0.3rem;
+  }
 }
 
 .domain {
@@ -82,7 +163,7 @@
 }
 
 .link {
-  margin-top: 1rem;
+  margin-top: 0.25rem;
   font-size: 0.85rem;
   display: flex;
   align-items: center;
@@ -92,6 +173,47 @@
 @include respond-below($breakpoint-lg) {
   .grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-height: 760px) {
+  .eyebrow {
+    margin-bottom: 0.75rem;
+  }
+
+  .heading {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+  }
+
+  .preview {
+    aspect-ratio: auto;
+    padding: 0.75rem;
+  }
+
+  .previewHeader {
+    padding-bottom: 0.4rem;
+  }
+
+  .wordmark {
+    font-size: 1.2rem;
+  }
+
+  .previewBody {
+    padding-top: 0.6rem;
+    gap: 0.4rem;
+  }
+
+  .previewHeading {
+    font-size: 1.35rem;
+  }
+
+  .card {
+    gap: 0.5rem;
+  }
+
+  .card h3 {
+    font-size: 1.2rem;
   }
 }
 
@@ -105,6 +227,6 @@
   }
 
   .card {
-    padding: 1.5rem;
+    padding: 0.75rem;
   }
 }
