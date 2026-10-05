@@ -1,0 +1,101 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: theme-var(color-muted);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: theme-var(color-text);
+}
+
+.heading {
+  margin: 0 0 2rem;
+  font-size: clamp(1.45rem, 2.9vw, 2.35rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 2rem;
+  border: 1px solid theme-var(color-line);
+  border-radius: 1rem;
+  color: theme-var(color-text);
+  text-decoration: none;
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-color: theme-var(color-text);
+  }
+
+  &:focus-visible {
+    outline: 2px solid theme-var(color-text);
+    outline-offset: 4px;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+}
+
+.domain {
+  color: theme-var(color-muted);
+  font-size: 0.8rem;
+  overflow-wrap: anywhere;
+}
+
+.link {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@include respond-below($breakpoint-lg) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@include respond-below($breakpoint-sm) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .heading {
+    margin-bottom: 1.25rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}

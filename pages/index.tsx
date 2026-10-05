@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import CareerJourney from "../components/CareerJourney";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
 const IndexPage = () => (
@@ -14,6 +15,7 @@ const IndexPage = () => (
         { id: "about", label: "About", render: (active) => <About active={active} /> },
         { id: "career", label: "Career", render: (active) => <CareerJourney active={active} /> },
         { id: "skills", label: "Skills", render: (active) => <Skills active={active} /> },
+        { id: "projects", label: "Projects", render: (active) => <Projects active={active} /> },
         { id: "contact", label: "Contact", render: (active) => <Contact active={active} /> },
       ]}
     />
