@@ -239,6 +239,33 @@
   letter-spacing: 0.12em;
 }
 
+@media (max-height: 760px) and (min-width: $breakpoint-md) {
+  .eyebrow {
+    margin-bottom: 1rem;
+  }
+
+  .grid {
+    margin-top: 1rem;
+    gap: 2rem;
+  }
+
+  .item {
+    min-height: 4.8rem;
+  }
+
+  .content {
+    padding-bottom: 0.65rem;
+  }
+
+  .stats {
+    gap: 1.25rem;
+  }
+
+  .statValue {
+    font-size: 2rem;
+  }
+}
+
 @include respond-below($breakpoint-md) {
   .grid {
     display: block;
