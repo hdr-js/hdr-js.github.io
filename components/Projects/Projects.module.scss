@@ -71,8 +71,8 @@
   box-sizing: border-box;
   aspect-ratio: 4 / 3;
   border-radius: 0.5rem;
-  background: #191919;
-  color: #f0f0ec;
+  background: theme-var(color-card);
+  color: theme-var(color-text);
   font-family: Georgia, "Times New Roman", serif;
   padding: 1rem;
   overflow: hidden;
@@ -84,7 +84,7 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 0.65rem;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid theme-var(color-line);
 }
 
 .wordmark {
@@ -93,7 +93,7 @@
 }
 
 .menu {
-  border: 1px solid #444;
+  border: 1px solid theme-var(color-line);
   border-radius: 0.3rem;
   padding: 0.1rem 0.3rem;
   font-size: 0.75rem;
@@ -110,7 +110,7 @@
   font-size: clamp(0.4rem, 2.5cqw, 0.65rem);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #bdbdb8;
+  color: theme-var(color-muted);
 }
 
 .previewHeading {
@@ -121,7 +121,7 @@
 
 .previewCopy {
   font-size: clamp(0.45rem, 3cqw, 0.75rem);
-  color: #bdbdb8;
+  color: theme-var(color-muted);
 }
 
 .search {
@@ -129,16 +129,16 @@
   justify-content: space-between;
   align-items: center;
   gap: 0.25rem;
-  background: #262626;
-  border: 1px solid #444;
+  background: theme-var(color-background);
+  border: 1px solid theme-var(color-line);
   border-radius: 0.4rem;
   padding: 0.35rem;
   font-size: clamp(0.45rem, 3cqw, 0.7rem);
 }
 
 .searchButton {
-  background: #f0f0ec;
-  color: #191919;
+  background: theme-var(color-text);
+  color: theme-var(color-background);
   border-radius: 0.2rem;
   padding: 0.25rem;
   white-space: nowrap;
@@ -150,7 +150,7 @@
   font-size: clamp(0.4rem, 2.6cqw, 0.65rem);
 
   span {
-    border: 1px solid #444;
+    border: 1px solid theme-var(color-line);
     border-radius: 0.2rem;
     padding: 0.15rem 0.3rem;
   }
