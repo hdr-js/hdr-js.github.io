@@ -66,6 +66,15 @@
   }
 }
 
+.preview {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 0;
+  border-radius: 0.5rem;
+  filter: grayscale(100%);
+  pointer-events: none;
+}
+
 .domain {
   color: theme-var(color-muted);
   font-size: 0.8rem;

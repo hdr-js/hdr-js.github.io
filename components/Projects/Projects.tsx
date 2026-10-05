@@ -26,6 +26,14 @@ const Projects: React.FC<Props> = ({ active = false }) => (
           rel="noopener noreferrer"
           aria-label={`${project.title} — visit project (opens in a new tab)`}
         >
+          <iframe
+            className={styles.preview}
+            src={project.href}
+            title={`${project.title} preview`}
+            loading="lazy"
+            tabIndex={-1}
+            aria-hidden="true"
+          />
           <span className={styles.domain}>{project.domain}</span>
           <h3>{project.title}</h3>
           <span className={styles.link}>Visit project <span aria-hidden="true">↗</span></span>
